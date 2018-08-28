@@ -11,7 +11,7 @@
 const {ccclass, property} = cc._decorator;
 
 import {player} from '../Players/player'
-import {DouDiZhu} from '../doudizu'
+// import {DouDiZhu} from '../doudizu'
 
 export enum status {
     unknown = 0,
@@ -24,8 +24,8 @@ export enum status {
 @ccclass
 export class place extends cc.Component {
 
-    @property(DouDiZhu)
-    public game : DouDiZhu = null
+    // @property(DouDiZhu)
+    // public game : DouDiZhu = null
 
     @property
     public placeIndex : number = 0
@@ -94,9 +94,9 @@ export class place extends cc.Component {
                     break
             }
 
-            if (this.game.canStartGame) {
-                this.game.startGame()
-            }
+            // if (this.game.canStartGame) {
+                // this.game.startGame()
+            // }
         }
     }
 

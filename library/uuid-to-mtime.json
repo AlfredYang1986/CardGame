@@ -290,12 +290,12 @@
     "relativePath": "Script/welcom_panel/loginBtn.ts"
   },
   "ac0c1c65-0aa4-4d2a-a55c-93d738f3fe2d": {
-    "asset": 1535365140641,
+    "asset": 1535441196655,
     "meta": 1535362874684,
     "relativePath": "Script/Game"
   },
   "8171b689-ff62-4261-9abd-982f3d81b1a3": {
-    "asset": 1535373126122,
+    "asset": 1535437552534,
     "meta": 1535362874686,
     "relativePath": "Script/Game/Place"
   },
@@ -364,14 +364,14 @@
     "meta": 1535441196655,
     "relativePath": "Script/Game/Request"
   },
-  "9942bbb2-1875-40d6-894b-5a45508d94fd": {
-    "asset": 1535441832011,
-    "meta": 1535441833606,
-    "relativePath": "Script/Game/Place/place.ts"
-  },
   "af0ca239-59c5-46b3-884a-b1c3acddb587": {
     "asset": 1535441867921,
     "meta": 1535441872042,
     "relativePath": "Script/Game/doudizu.ts"
+  },
+  "9942bbb2-1875-40d6-894b-5a45508d94fd": {
+    "asset": 1535443763604,
+    "meta": 1535443767713,
+    "relativePath": "Script/Game/Place/place.ts"
   }
 }
