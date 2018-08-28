@@ -1,1 +1,2 @@
-# CardGame
+# hello-world
+Hello world new project template.
