@@ -244,11 +244,6 @@
     "meta": 1535355835927,
     "relativePath": "Script/Lib"
   },
-  "58ad3d17-3ea5-4742-876e-5f191c43fbee": {
-    "asset": 1535355835927,
-    "meta": 1535355842786,
-    "relativePath": "Script/ChildClass.ts"
-  },
   "c0278ad9-28ec-4efa-96b4-ed588df58b75": {
     "asset": 1535355835930,
     "meta": 1535355842836,
@@ -258,11 +253,6 @@
     "asset": 1535355835925,
     "meta": 1535355835922,
     "relativePath": "Texture"
-  },
-  "7cd6a9b6-20a8-4253-bce4-0a7da1289315": {
-    "asset": 1535355835927,
-    "meta": 1535355842844,
-    "relativePath": "Script/SuperClass.ts"
   },
   "a8027877-d8d6-4645-97a0-52d4a0123dba": {
     "asset": 1535355835928,
@@ -364,14 +354,39 @@
     "meta": 1535441196655,
     "relativePath": "Script/Game/Request"
   },
-  "af0ca239-59c5-46b3-884a-b1c3acddb587": {
-    "asset": 1535441867921,
-    "meta": 1535441872042,
-    "relativePath": "Script/Game/doudizu.ts"
-  },
   "9942bbb2-1875-40d6-894b-5a45508d94fd": {
-    "asset": 1535443763604,
-    "meta": 1535443767713,
+    "asset": 1535526055652,
+    "meta": 1535526057050,
     "relativePath": "Script/Game/Place/place.ts"
+  },
+  "bc697c3d-d8f2-402a-ba6b-0e726e5c2eb6": {
+    "asset": 1535526106343,
+    "meta": 1535526106346,
+    "relativePath": "Script/Game/Card"
+  },
+  "1787f823-d38d-4469-b61f-6c12649f1243": {
+    "asset": 1535526914083,
+    "meta": 1535526921752,
+    "relativePath": "Script/Game/Card/Card.ts"
+  },
+  "ba8c8eed-29a1-4149-b63f-4d279efa4c49": {
+    "asset": 1535530868371,
+    "meta": 1535530868341,
+    "relativePath": "resources"
+  },
+  "33a68615-80f2-48d7-a5fd-e3f273fb72be": {
+    "asset": 1535528425983,
+    "meta": 1535530868564,
+    "relativePath": "resources/Card.plist"
+  },
+  "8a1e0618-7219-43c7-ad02-2b5e32c0ac23": {
+    "asset": 1535528425979,
+    "meta": 1535530868532,
+    "relativePath": "resources/Card.png"
+  },
+  "af0ca239-59c5-46b3-884a-b1c3acddb587": {
+    "asset": 1535534321326,
+    "meta": 1535534324318,
+    "relativePath": "Script/Game/doudizu.ts"
   }
 }

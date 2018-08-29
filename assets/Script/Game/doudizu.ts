@@ -8,9 +8,9 @@
 //  - [Chinese] http://www.cocos.com/docs/creator/scripting/life-cycle-callbacks.html
 //  - [English] http://www.cocos2d-x.org/docs/editors_and_tools/creator-chapters/scripting/life-cycle-callbacks/index.html
 
-const {ccclass, property} = cc._decorator;
+const {ccclass, property} = cc._decorator
 
-import {player} from './Players/player';
+import {player} from './Players/player'
 import {place} from './Place/place'
 
 const pos_me = 0
@@ -23,24 +23,25 @@ export class DouDiZhu extends cc.Component {
     @property([place])
     places : place[] = []
 
+    @property(cc.Node)
+    card_tt : cc.Node = null
+
     isStarted : boolean = false
+
+    cache : cc.SpriteAtlas = null
 
     // LIFE-CYCLE CALLBACKS:
 
     onLoad () {
-        /**
-         * 1. 初始化位置
-         */
-        //for (var index = 0; index < 3; ++index) {
-        //    this.places.push(new place(index))
-        //}
+        var self = this
+        cc.loader.loadRes("Card", cc.SpriteAtlas, function (err, atlas) {
+            if (err == null) {
+                self.cache = atlas
+            }
+        });
 
         this.creatPlayer()
         this.creatOtherPlayer()
-
-        //  var newPlace = cc.instantiate(this.placePrefab);
-        //  this.node.addChild(newPlace);
-        //  newPlace.setPosition(cc.p(100, 100));
     }
 
     start () {
@@ -116,8 +117,11 @@ export class DouDiZhu extends cc.Component {
     }
 
     canStartGame() : boolean {
+        // check if all the player is ready
         var b = true
         this.places.forEach(element => {
+            console.log("start check");
+            console.log(element.isReady());
             b = b && element.isReady()
         });
         return b
@@ -126,6 +130,7 @@ export class DouDiZhu extends cc.Component {
     startGame() {
         // 1. 一开始一人发一张牌
         console.log("start card game");
-        
+
+        this.card_tt.getComponent(cc.Sprite).spriteFrame = this.cache.getSpriteFrame('H1')
     }
 }

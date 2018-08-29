@@ -6131,7 +6131,7 @@ declare module cc {
 	}	
 	/** !#en Class for sprite atlas handling.
 	!#zh 精灵图集资源类。 */
-	export class SpriteAtlas extends RawAsset {		
+	export class SpriteAtlas extends Asset {		
 		/**
 		Returns the texture of the sprite atlas 
 		*/

@@ -24,8 +24,8 @@ export enum status {
 @ccclass
 export class place extends cc.Component {
 
-    // @property(DouDiZhu)
-    // public game : DouDiZhu = null
+    @property(cc.Node)
+    game : cc.Node = null
 
     @property
     public placeIndex : number = 0
@@ -94,9 +94,10 @@ export class place extends cc.Component {
                     break
             }
 
-            // if (this.game.canStartGame) {
-                // this.game.startGame()
-            // }
+            let ddz = this.game.getComponent('doudizu')
+            if (ddz.canStartGame()) {
+                ddz.startGame()
+            }
         }
     }
 
@@ -107,6 +108,8 @@ export class place extends cc.Component {
         newPlace.getComponent('othernotready').parent = this
         
         newPlace.getChildByName('name').getComponent(cc.Label).string = this.curPlayer.playerName
+
+        this.otherReady()
     }
 
     private change2otherready() {
@@ -125,6 +128,7 @@ export class place extends cc.Component {
         newPlace.getComponent('meready').parent = this
         
         newPlace.getChildByName('name').getComponent(cc.Label).string = this.curPlayer.playerName
+
     }
 
     private change2menotready() {
@@ -134,5 +138,18 @@ export class place extends cc.Component {
         newPlace.getComponent('menotready').parent = this
         
         newPlace.getChildByName('name').getComponent(cc.Label).string = this.curPlayer.playerName
+    }
+
+    async otherReady() : Promise<string> {
+        var self = this
+        return new Promise<string>((resolve, reject) => {
+            setTimeout(() => {
+                console.log("ready for others")
+
+                this.changeSTM(status.other_is_ready)
+
+                resolve("true")
+            }, 2000)
+        })
     }
 }
