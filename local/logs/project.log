@@ -2781,3 +2781,986 @@
 2018-08-29T09:19:12.052Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 187
 2018-08-29T09:19:12.052Z - normal: Simulator: GC end ..., (Native -> JS map) count: 187
 2018-08-29T09:19:12.111Z - normal: Simulator: ScriptEngine::cleanup end ...
+2018-08-29T09:31:51.463Z - normal: Simulator: WORKAREA WIDTH 1920.00, HEIGHT 1035.00
+2018-08-29T09:31:51.465Z - normal: Simulator: FRAME SCALE = 1.00
+2018-08-29T09:31:51.595Z - normal: Simulator: 
+2018-08-29T09:31:51.595Z - normal: Simulator: {
+2018-08-29T09:31:51.595Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2018-08-29T09:31:51.595Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2018-08-29T09:31:51.596Z - normal: Simulator: 	cocos2d.x.version: 1.7.0
+2018-08-29T09:31:51.596Z - normal: Simulator: 	gl.vendor: Intel Inc.
+2018-08-29T09:31:51.596Z - normal: Simulator: 	gl.supports_PVRTC: false
+2018-08-29T09:31:51.596Z - normal: Simulator: 	gl.renderer: Intel HD Graphics 5000 OpenGL Engine
+2018-08-29T09:31:51.597Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2018-08-29T09:31:51.597Z - normal: Simulator: 	gl.max_texture_size: 16384
+2018-08-29T09:31:51.597Z - normal: Simulator: 	gl.supports_ETC1: false
+2018-08-29T09:31:51.597Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2018-08-29T09:31:51.598Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2018-08-29T09:31:51.598Z - normal: Simulator: 	gl.max_texture_units: 16
+2018-08-29T09:31:51.598Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2018-08-29T09:31:51.598Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2018-08-29T09:31:51.599Z - normal: Simulator: 	gl.supports_NPOT: true
+2018-08-29T09:31:51.599Z - normal: Simulator: 	gl.version: 2.1 INTEL-10.36.19
+2018-08-29T09:31:51.599Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2018-08-29T09:31:51.599Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2018-08-29T09:31:51.599Z - normal: Simulator: }
+2018-08-29T09:31:51.600Z - normal: Simulator: 
+2018-08-29T09:31:51.600Z - normal: Simulator: 
+2018-08-29T09:31:51.600Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2018-08-29T09:31:51.639Z - normal: Simulator: Project Config:
+2018-08-29T09:31:51.644Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2018-08-29T09:31:51.646Z - normal: Simulator:     writable path: $(PROJDIR)/
+2018-08-29T09:31:51.647Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2018-08-29T09:31:51.648Z - normal: Simulator:     frame size: 960 x 640
+2018-08-29T09:31:51.648Z - normal: Simulator:     frame scale: 1.00
+2018-08-29T09:31:51.649Z - normal: Simulator:     show console: NO
+2018-08-29T09:31:51.649Z - normal: Simulator:     write debug log: NO ()
+2018-08-29T09:31:51.655Z - normal: Simulator:     listen: 
+2018-08-29T09:31:51.657Z - normal: Simulator:     debugger: none
+2018-08-29T09:31:51.659Z - normal: Simulator:     add searching path:
+2018-08-29T09:31:51.659Z - normal: Simulator: ------------------------------------------------
+2018-08-29T09:31:51.660Z - normal: Simulator: LOAD Js FILE: main.js
+2018-08-29T09:31:51.660Z - normal: Simulator: ------------------------------------------------
+2018-08-29T09:31:51.661Z - normal: Simulator: Initializing JavaScriptCore 
+2018-08-29T09:31:51.800Z - normal: Simulator: JS: Cocos2d-x-lite v1.7.0
+2018-08-29T09:31:52.173Z - normal: Simulator: iShow!
+2018-08-29T09:31:52.377Z - normal: Simulator: JS: InitScene: 2.578999999999951ms
+2018-08-29T09:31:52.377Z - normal: Simulator: JS: AutoRelease: 0.18500000000005912ms
+2018-08-29T09:31:52.378Z - normal: Simulator: JS: Destroy: 0.09500000000002728ms
+2018-08-29T09:31:52.378Z - normal: Simulator: JS: AttachPersist: 0.009000000000014552ms
+2018-08-29T09:31:52.419Z - normal: Simulator: JS: Activate: 40.20999999999992ms
+2018-08-29T09:31:54.435Z - normal: Simulator: JS: create a player start
+2018-08-29T09:31:54.505Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T09:31:54.508Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T09:31:54.512Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T09:31:54.525Z - normal: Simulator: JS: start check
+2018-08-29T09:31:54.526Z - normal: Simulator: JS: false
+2018-08-29T09:31:54.527Z - normal: Simulator: JS: start check
+2018-08-29T09:31:54.527Z - normal: Simulator: JS: true
+2018-08-29T09:31:54.527Z - normal: Simulator: JS: start check
+2018-08-29T09:31:54.528Z - normal: Simulator: JS: true
+2018-08-29T09:31:54.528Z - normal: Simulator: JS: create other player
+2018-08-29T09:31:54.531Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T09:31:54.531Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T09:31:54.557Z - normal: Simulator: JS: start check
+2018-08-29T09:31:54.558Z - normal: Simulator: JS: false
+2018-08-29T09:31:54.558Z - normal: Simulator: JS: start check
+2018-08-29T09:31:54.559Z - normal: Simulator: JS: true
+2018-08-29T09:31:54.559Z - normal: Simulator: JS: start check
+2018-08-29T09:31:54.559Z - normal: Simulator: JS: true
+2018-08-29T09:31:54.560Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T09:31:54.560Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T09:31:54.560Z - normal: Simulator: JS: start check
+2018-08-29T09:31:54.561Z - normal: Simulator: JS: false
+2018-08-29T09:31:54.561Z - normal: Simulator: JS: start check
+2018-08-29T09:31:54.562Z - normal: Simulator: JS: true
+2018-08-29T09:31:54.562Z - normal: Simulator: JS: start check
+2018-08-29T09:31:54.562Z - normal: Simulator: JS: true
+2018-08-29T09:31:54.562Z - normal: Simulator: JS: create a player start
+2018-08-29T09:31:54.563Z - normal: Simulator: JS: this place has already been taken by other player
+2018-08-29T09:31:54.563Z - normal: Simulator: JS: create other player
+2018-08-29T09:31:54.563Z - normal: Simulator: JS: this place has already been taken by other player
+2018-08-29T09:31:54.563Z - normal: Simulator: JS: this place has already been taken by other player
+2018-08-29T09:31:56.451Z - normal: Simulator: JS: ready for others
+2018-08-29T09:31:56.458Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T09:31:56.459Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T09:31:56.461Z - normal: Simulator: JS: start check
+2018-08-29T09:31:56.462Z - normal: Simulator: JS: false
+2018-08-29T09:31:56.463Z - normal: Simulator: JS: start check
+2018-08-29T09:31:56.463Z - normal: Simulator: JS: true
+2018-08-29T09:31:56.463Z - normal: Simulator: JS: start check
+2018-08-29T09:31:56.464Z - normal: Simulator: JS: true
+2018-08-29T09:31:56.464Z - normal: Simulator: JS: ready for others
+2018-08-29T09:31:56.473Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T09:31:56.473Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T09:31:56.474Z - normal: Simulator: JS: start check
+2018-08-29T09:31:56.474Z - normal: Simulator: JS: false
+2018-08-29T09:31:56.474Z - normal: Simulator: JS: start check
+2018-08-29T09:31:56.474Z - normal: Simulator: JS: true
+2018-08-29T09:31:56.475Z - normal: Simulator: JS: start check
+2018-08-29T09:31:56.475Z - normal: Simulator: JS: true
+2018-08-29T09:31:57.634Z - normal: Simulator: JS: me want to ready
+2018-08-29T09:31:57.644Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T09:31:57.646Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T09:31:57.657Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T09:31:57.658Z - normal: Simulator: JS: start check
+2018-08-29T09:31:57.658Z - normal: Simulator: JS: true
+2018-08-29T09:31:57.658Z - normal: Simulator: JS: start check
+2018-08-29T09:31:57.659Z - normal: Simulator: JS: true
+2018-08-29T09:31:57.659Z - normal: Simulator: JS: start check
+2018-08-29T09:31:57.659Z - normal: Simulator: JS: true
+2018-08-29T09:31:57.659Z - normal: Simulator: JS: start card game
+2018-08-29T09:32:00.242Z - normal: Simulator: ScriptEngine::cleanup begin ...
+2018-08-29T09:32:00.242Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 216
+2018-08-29T09:32:00.256Z - normal: Simulator: GC end ..., (Native -> JS map) count: 187
+2018-08-29T09:32:00.256Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 187
+2018-08-29T09:32:00.261Z - normal: Simulator: GC end ..., (Native -> JS map) count: 187
+2018-08-29T09:32:00.261Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 187
+2018-08-29T09:32:00.276Z - normal: Simulator: GC end ..., (Native -> JS map) count: 187
+2018-08-29T09:32:00.331Z - normal: Simulator: ScriptEngine::cleanup end ...
+2018-08-29T10:03:18.334Z - normal: Simulator: WORKAREA WIDTH 1920.00, HEIGHT 1035.00
+2018-08-29T10:03:18.337Z - normal: Simulator: FRAME SCALE = 1.00
+2018-08-29T10:03:18.439Z - normal: Simulator: 
+2018-08-29T10:03:18.467Z - normal: Simulator: {
+2018-08-29T10:03:18.468Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2018-08-29T10:03:18.468Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2018-08-29T10:03:18.468Z - normal: Simulator: 	cocos2d.x.version: 1.7.0
+2018-08-29T10:03:18.468Z - normal: Simulator: 	gl.vendor: Intel Inc.
+2018-08-29T10:03:18.469Z - normal: Simulator: 	gl.supports_PVRTC: false
+2018-08-29T10:03:18.469Z - normal: Simulator: 	gl.renderer: Intel HD Graphics 5000 OpenGL Engine
+2018-08-29T10:03:18.469Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2018-08-29T10:03:18.469Z - normal: Simulator: 	gl.max_texture_size: 16384
+2018-08-29T10:03:18.470Z - normal: Simulator: 	gl.supports_ETC1: false
+2018-08-29T10:03:18.470Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2018-08-29T10:03:18.470Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2018-08-29T10:03:18.470Z - normal: Simulator: 	gl.max_texture_units: 16
+2018-08-29T10:03:18.471Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2018-08-29T10:03:18.471Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2018-08-29T10:03:18.471Z - normal: Simulator: 	gl.supports_NPOT: true
+2018-08-29T10:03:18.471Z - normal: Simulator: 	gl.version: 2.1 INTEL-10.36.19
+2018-08-29T10:03:18.472Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2018-08-29T10:03:18.472Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2018-08-29T10:03:18.472Z - normal: Simulator: }
+2018-08-29T10:03:18.472Z - normal: Simulator: 
+2018-08-29T10:03:18.472Z - normal: Simulator: 
+2018-08-29T10:03:18.473Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2018-08-29T10:03:18.507Z - normal: Simulator: Project Config:
+2018-08-29T10:03:18.507Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2018-08-29T10:03:18.508Z - normal: Simulator:     writable path: $(PROJDIR)/
+2018-08-29T10:03:18.508Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2018-08-29T10:03:18.509Z - normal: Simulator:     frame size: 960 x 640
+2018-08-29T10:03:18.509Z - normal: Simulator:     frame scale: 1.00
+2018-08-29T10:03:18.510Z - normal: Simulator:     show console: NO
+2018-08-29T10:03:18.517Z - normal: Simulator:     write debug log: NO ()
+2018-08-29T10:03:18.518Z - normal: Simulator:     listen: 
+2018-08-29T10:03:18.520Z - normal: Simulator:     debugger: none
+2018-08-29T10:03:18.521Z - normal: Simulator:     add searching path:
+2018-08-29T10:03:18.525Z - normal: Simulator: ------------------------------------------------
+2018-08-29T10:03:18.527Z - normal: Simulator: LOAD Js FILE: main.js
+2018-08-29T10:03:18.527Z - normal: Simulator: ------------------------------------------------
+2018-08-29T10:03:18.529Z - normal: Simulator: Initializing JavaScriptCore 
+2018-08-29T10:03:18.627Z - normal: Simulator: JS: Cocos2d-x-lite v1.7.0
+2018-08-29T10:03:18.975Z - normal: Simulator: iShow!
+2018-08-29T10:03:19.214Z - normal: Simulator: JS: InitScene: 2.798000000000002ms
+2018-08-29T10:03:19.214Z - normal: Simulator: JS: AutoRelease: 0.17200000000002547ms
+2018-08-29T10:03:19.214Z - normal: Simulator: JS: Destroy: 0.08800000000007913ms
+2018-08-29T10:03:19.216Z - normal: Simulator: JS: AttachPersist: 0.008000000000038199ms
+2018-08-29T10:03:19.245Z - normal: Simulator: JS: Activate: 26.009000000000015ms
+2018-08-29T10:03:21.251Z - normal: Simulator: JS: create a player start
+2018-08-29T10:03:21.323Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T10:03:21.325Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T10:03:21.329Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T10:03:21.345Z - normal: Simulator: JS: start check
+2018-08-29T10:03:21.346Z - normal: Simulator: JS: false
+2018-08-29T10:03:21.346Z - normal: Simulator: JS: start check
+2018-08-29T10:03:21.348Z - normal: Simulator: JS: true
+2018-08-29T10:03:21.350Z - normal: Simulator: JS: start check
+2018-08-29T10:03:21.352Z - normal: Simulator: JS: true
+2018-08-29T10:03:21.352Z - normal: Simulator: JS: create other player
+2018-08-29T10:03:21.359Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T10:03:21.376Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T10:03:21.376Z - normal: Simulator: JS: start check
+2018-08-29T10:03:21.377Z - normal: Simulator: JS: false
+2018-08-29T10:03:21.377Z - normal: Simulator: JS: start check
+2018-08-29T10:03:21.377Z - normal: Simulator: JS: true
+2018-08-29T10:03:21.378Z - normal: Simulator: JS: start check
+2018-08-29T10:03:21.378Z - normal: Simulator: JS: true
+2018-08-29T10:03:21.378Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T10:03:21.378Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T10:03:21.379Z - normal: Simulator: JS: start check
+2018-08-29T10:03:21.379Z - normal: Simulator: JS: false
+2018-08-29T10:03:21.380Z - normal: Simulator: JS: start check
+2018-08-29T10:03:21.380Z - normal: Simulator: JS: true
+2018-08-29T10:03:21.381Z - normal: Simulator: JS: start check
+2018-08-29T10:03:21.381Z - normal: Simulator: JS: true
+2018-08-29T10:03:21.382Z - normal: Simulator: JS: create a player start
+2018-08-29T10:03:21.383Z - normal: Simulator: JS: this place has already been taken by other player
+2018-08-29T10:03:21.383Z - normal: Simulator: JS: create other player
+2018-08-29T10:03:21.383Z - normal: Simulator: JS: this place has already been taken by other player
+2018-08-29T10:03:21.383Z - normal: Simulator: JS: this place has already been taken by other player
+2018-08-29T10:03:23.252Z - normal: Simulator: JS: ready for others
+2018-08-29T10:03:23.260Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T10:03:23.260Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T10:03:23.262Z - normal: Simulator: JS: start check
+2018-08-29T10:03:23.263Z - normal: Simulator: JS: false
+2018-08-29T10:03:23.263Z - normal: Simulator: JS: start check
+2018-08-29T10:03:23.263Z - normal: Simulator: JS: true
+2018-08-29T10:03:23.264Z - normal: Simulator: JS: start check
+2018-08-29T10:03:23.264Z - normal: Simulator: JS: true
+2018-08-29T10:03:23.264Z - normal: Simulator: JS: ready for others
+2018-08-29T10:03:23.277Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T10:03:23.277Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T10:03:23.278Z - normal: Simulator: JS: start check
+2018-08-29T10:03:23.278Z - normal: Simulator: JS: false
+2018-08-29T10:03:23.278Z - normal: Simulator: JS: start check
+2018-08-29T10:03:23.278Z - normal: Simulator: JS: true
+2018-08-29T10:03:23.279Z - normal: Simulator: JS: start check
+2018-08-29T10:03:23.279Z - normal: Simulator: JS: true
+2018-08-29T10:03:24.421Z - normal: Simulator: JS: me want to ready
+2018-08-29T10:03:24.434Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T10:03:24.445Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T10:03:24.446Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T10:03:24.447Z - normal: Simulator: JS: start check
+2018-08-29T10:03:24.447Z - normal: Simulator: JS: true
+2018-08-29T10:03:24.447Z - normal: Simulator: JS: start check
+2018-08-29T10:03:24.448Z - normal: Simulator: JS: true
+2018-08-29T10:03:24.449Z - normal: Simulator: JS: start check
+2018-08-29T10:03:24.449Z - normal: Simulator: JS: true
+2018-08-29T10:03:24.449Z - normal: Simulator: JS: start card game
+2018-08-29T10:03:25.646Z - normal: Simulator: JS: me ready cancel the status
+2018-08-29T10:03:25.646Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T10:03:25.662Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T10:03:25.662Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T10:03:25.662Z - normal: Simulator: JS: start check
+2018-08-29T10:03:25.663Z - normal: Simulator: JS: false
+2018-08-29T10:03:25.663Z - normal: Simulator: JS: start check
+2018-08-29T10:03:25.663Z - normal: Simulator: JS: true
+2018-08-29T10:03:25.664Z - normal: Simulator: JS: start check
+2018-08-29T10:03:25.664Z - normal: Simulator: JS: true
+2018-08-29T10:07:26.173Z - normal: Simulator: WORKAREA WIDTH 1920.00, HEIGHT 1035.00
+2018-08-29T10:07:26.175Z - normal: Simulator: FRAME SCALE = 1.00
+2018-08-29T10:07:26.301Z - normal: Simulator: 
+2018-08-29T10:07:26.301Z - normal: Simulator: {
+2018-08-29T10:07:26.301Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2018-08-29T10:07:26.302Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2018-08-29T10:07:26.302Z - normal: Simulator: 	cocos2d.x.version: 1.7.0
+2018-08-29T10:07:26.302Z - normal: Simulator: 	gl.vendor: Intel Inc.
+2018-08-29T10:07:26.302Z - normal: Simulator: 	gl.supports_PVRTC: false
+2018-08-29T10:07:26.302Z - normal: Simulator: 	gl.renderer: Intel HD Graphics 5000 OpenGL Engine
+2018-08-29T10:07:26.303Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2018-08-29T10:07:26.303Z - normal: Simulator: 	gl.max_texture_size: 16384
+2018-08-29T10:07:26.303Z - normal: Simulator: 	gl.supports_ETC1: false
+2018-08-29T10:07:26.303Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2018-08-29T10:07:26.304Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2018-08-29T10:07:26.304Z - normal: Simulator: 	gl.max_texture_units: 16
+2018-08-29T10:07:26.304Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2018-08-29T10:07:26.304Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2018-08-29T10:07:26.304Z - normal: Simulator: 	gl.supports_NPOT: true
+2018-08-29T10:07:26.305Z - normal: Simulator: 	gl.version: 2.1 INTEL-10.36.19
+2018-08-29T10:07:26.305Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2018-08-29T10:07:26.305Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2018-08-29T10:07:26.305Z - normal: Simulator: }
+2018-08-29T10:07:26.306Z - normal: Simulator: 
+2018-08-29T10:07:26.306Z - normal: Simulator: 
+2018-08-29T10:07:26.306Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2018-08-29T10:07:26.352Z - normal: Simulator: Project Config:
+2018-08-29T10:07:26.353Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2018-08-29T10:07:26.353Z - normal: Simulator:     writable path: $(PROJDIR)/
+2018-08-29T10:07:26.353Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2018-08-29T10:07:26.354Z - normal: Simulator:     frame size: 960 x 640
+2018-08-29T10:07:26.354Z - normal: Simulator:     frame scale: 1.00
+2018-08-29T10:07:26.354Z - normal: Simulator:     show console: NO
+2018-08-29T10:07:26.355Z - normal: Simulator:     write debug log: NO ()
+2018-08-29T10:07:26.356Z - normal: Simulator:     listen: 
+2018-08-29T10:07:26.356Z - normal: Simulator:     debugger: none
+2018-08-29T10:07:26.356Z - normal: Simulator:     add searching path:
+2018-08-29T10:07:26.356Z - normal: Simulator: ------------------------------------------------
+2018-08-29T10:07:26.356Z - normal: Simulator: LOAD Js FILE: main.js
+2018-08-29T10:07:26.356Z - normal: Simulator: ------------------------------------------------
+2018-08-29T10:07:26.357Z - normal: Simulator: Initializing JavaScriptCore 
+2018-08-29T10:07:26.480Z - normal: Simulator: JS: Cocos2d-x-lite v1.7.0
+2018-08-29T10:07:26.871Z - normal: Simulator: iShow!
+2018-08-29T10:07:27.098Z - normal: Simulator: JS: InitScene: 3.147000000000048ms
+2018-08-29T10:07:27.098Z - normal: Simulator: JS: AutoRelease: 0.37999999999999545ms
+2018-08-29T10:07:27.099Z - normal: Simulator: JS: Destroy: 0.1089999999999236ms
+2018-08-29T10:07:27.099Z - normal: Simulator: JS: AttachPersist: 0.009000000000014552ms
+2018-08-29T10:07:27.129Z - normal: Simulator: JS: Activate: 28.647000000000048ms
+2018-08-29T10:07:29.143Z - normal: Simulator: JS: create a player start
+2018-08-29T10:07:29.206Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T10:07:29.211Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T10:07:29.214Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T10:07:29.220Z - normal: Simulator: JS: start check
+2018-08-29T10:07:29.221Z - normal: Simulator: JS: false
+2018-08-29T10:07:29.221Z - normal: Simulator: JS: start check
+2018-08-29T10:07:29.221Z - normal: Simulator: JS: true
+2018-08-29T10:07:29.222Z - normal: Simulator: JS: start check
+2018-08-29T10:07:29.222Z - normal: Simulator: JS: true
+2018-08-29T10:07:29.222Z - normal: Simulator: JS: create other player
+2018-08-29T10:07:29.238Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T10:07:29.239Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T10:07:29.239Z - normal: Simulator: JS: start check
+2018-08-29T10:07:29.239Z - normal: Simulator: JS: false
+2018-08-29T10:07:29.240Z - normal: Simulator: JS: start check
+2018-08-29T10:07:29.240Z - normal: Simulator: JS: true
+2018-08-29T10:07:29.240Z - normal: Simulator: JS: start check
+2018-08-29T10:07:29.240Z - normal: Simulator: JS: true
+2018-08-29T10:07:29.242Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T10:07:29.243Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T10:07:29.261Z - normal: Simulator: JS: start check
+2018-08-29T10:07:29.261Z - normal: Simulator: JS: false
+2018-08-29T10:07:29.261Z - normal: Simulator: JS: start check
+2018-08-29T10:07:29.262Z - normal: Simulator: JS: true
+2018-08-29T10:07:29.262Z - normal: Simulator: JS: start check
+2018-08-29T10:07:29.262Z - normal: Simulator: JS: true
+2018-08-29T10:07:29.263Z - normal: Simulator: JS: create a player start
+2018-08-29T10:07:29.263Z - normal: Simulator: JS: this place has already been taken by other player
+2018-08-29T10:07:29.263Z - normal: Simulator: JS: create other player
+2018-08-29T10:07:29.263Z - normal: Simulator: JS: this place has already been taken by other player
+2018-08-29T10:07:29.263Z - normal: Simulator: JS: this place has already been taken by other player
+2018-08-29T10:07:31.061Z - normal: Simulator: JS: me want to ready
+2018-08-29T10:07:31.068Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T10:07:31.070Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T10:07:31.082Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T10:07:31.083Z - normal: Simulator: JS: start check
+2018-08-29T10:07:31.083Z - normal: Simulator: JS: true
+2018-08-29T10:07:31.083Z - normal: Simulator: JS: start check
+2018-08-29T10:07:31.084Z - normal: Simulator: JS: true
+2018-08-29T10:07:31.084Z - normal: Simulator: JS: start check
+2018-08-29T10:07:31.084Z - normal: Simulator: JS: true
+2018-08-29T10:07:31.084Z - normal: Simulator: JS: start card game
+2018-08-29T10:07:31.145Z - normal: Simulator: JS: ready for others
+2018-08-29T10:07:31.151Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T10:07:31.152Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T10:07:31.156Z - normal: Simulator: JS: start check
+2018-08-29T10:07:31.157Z - normal: Simulator: JS: true
+2018-08-29T10:07:31.157Z - normal: Simulator: JS: start check
+2018-08-29T10:07:31.158Z - normal: Simulator: JS: true
+2018-08-29T10:07:31.160Z - normal: Simulator: JS: start check
+2018-08-29T10:07:31.160Z - normal: Simulator: JS: true
+2018-08-29T10:07:31.160Z - normal: Simulator: JS: start card game
+2018-08-29T10:07:31.160Z - normal: Simulator: JS: ready for others
+2018-08-29T10:07:31.173Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T10:07:31.174Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T10:07:31.174Z - normal: Simulator: JS: start check
+2018-08-29T10:07:31.174Z - normal: Simulator: JS: true
+2018-08-29T10:07:31.175Z - normal: Simulator: JS: start check
+2018-08-29T10:07:31.175Z - normal: Simulator: JS: true
+2018-08-29T10:07:31.175Z - normal: Simulator: JS: start check
+2018-08-29T10:07:31.175Z - normal: Simulator: JS: true
+2018-08-29T10:07:31.176Z - normal: Simulator: JS: start card game
+2018-08-29T10:07:46.620Z - normal: Simulator: ScriptEngine::cleanup begin ...
+2018-08-29T10:07:46.620Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 216
+2018-08-29T10:07:46.634Z - normal: Simulator: GC end ..., (Native -> JS map) count: 187
+2018-08-29T10:07:46.635Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 187
+2018-08-29T10:07:46.641Z - normal: Simulator: GC end ..., (Native -> JS map) count: 187
+2018-08-29T10:07:46.643Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 187
+2018-08-29T10:07:46.660Z - normal: Simulator: GC end ..., (Native -> JS map) count: 187
+2018-08-29T10:07:46.754Z - normal: Simulator: ScriptEngine::cleanup end ...
+2018-08-29T10:10:31.023Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:107780
+2018-08-29T10:23:44.960Z - warn: [db-task][sync-changes] Backup unused meta file: db://assets/Script/Game/Card/Card.ts.meta
+2018-08-29T10:30:18.936Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:115805
+2018-08-29T11:21:47.477Z - normal: Simulator: WORKAREA WIDTH 1920.00, HEIGHT 1035.00
+2018-08-29T11:21:47.479Z - normal: Simulator: FRAME SCALE = 1.00
+2018-08-29T11:21:47.618Z - normal: Simulator: 
+2018-08-29T11:21:47.618Z - normal: Simulator: {
+2018-08-29T11:21:47.618Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2018-08-29T11:21:47.619Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2018-08-29T11:21:47.619Z - normal: Simulator: 	cocos2d.x.version: 1.7.0
+2018-08-29T11:21:47.619Z - normal: Simulator: 	gl.vendor: Intel Inc.
+2018-08-29T11:21:47.619Z - normal: Simulator: 	gl.supports_PVRTC: false
+2018-08-29T11:21:47.620Z - normal: Simulator: 	gl.renderer: Intel HD Graphics 5000 OpenGL Engine
+2018-08-29T11:21:47.620Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2018-08-29T11:21:47.620Z - normal: Simulator: 	gl.max_texture_size: 16384
+2018-08-29T11:21:47.620Z - normal: Simulator: 	gl.supports_ETC1: false
+2018-08-29T11:21:47.620Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2018-08-29T11:21:47.621Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2018-08-29T11:21:47.621Z - normal: Simulator: 	gl.max_texture_units: 16
+2018-08-29T11:21:47.621Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2018-08-29T11:21:47.621Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2018-08-29T11:21:47.622Z - normal: Simulator: 	gl.supports_NPOT: true
+2018-08-29T11:21:47.622Z - normal: Simulator: 	gl.version: 2.1 INTEL-10.36.19
+2018-08-29T11:21:47.622Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2018-08-29T11:21:47.622Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2018-08-29T11:21:47.622Z - normal: Simulator: }
+2018-08-29T11:21:47.623Z - normal: Simulator: 
+2018-08-29T11:21:47.623Z - normal: Simulator: 
+2018-08-29T11:21:47.623Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2018-08-29T11:21:47.664Z - normal: Simulator: Project Config:
+2018-08-29T11:21:47.664Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2018-08-29T11:21:47.665Z - normal: Simulator:     writable path: $(PROJDIR)/
+2018-08-29T11:21:47.666Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2018-08-29T11:21:47.666Z - normal: Simulator:     frame size: 960 x 640
+2018-08-29T11:21:47.666Z - normal: Simulator:     frame scale: 1.00
+2018-08-29T11:21:47.667Z - normal: Simulator:     show console: NO
+2018-08-29T11:21:47.667Z - normal: Simulator:     write debug log: NO ()
+2018-08-29T11:21:47.667Z - normal: Simulator:     listen: 
+2018-08-29T11:21:47.667Z - normal: Simulator:     debugger: none
+2018-08-29T11:21:47.668Z - normal: Simulator:     add searching path:
+2018-08-29T11:21:47.669Z - normal: Simulator: ------------------------------------------------
+2018-08-29T11:21:47.669Z - normal: Simulator: LOAD Js FILE: main.js
+2018-08-29T11:21:47.670Z - normal: Simulator: ------------------------------------------------
+2018-08-29T11:21:47.671Z - normal: Simulator: Initializing JavaScriptCore 
+2018-08-29T11:21:47.852Z - normal: Simulator: JS: Cocos2d-x-lite v1.7.0
+2018-08-29T11:21:48.174Z - normal: Simulator: iShow!
+2018-08-29T11:21:48.411Z - normal: Simulator: JS: InitScene: 4.8279999999999745ms
+2018-08-29T11:21:48.412Z - normal: Simulator: JS: AutoRelease: 0.27899999999999636ms
+2018-08-29T11:21:48.412Z - normal: Simulator: JS: Destroy: 0.1430000000000291ms
+2018-08-29T11:21:48.413Z - normal: Simulator: JS: AttachPersist: 0.012000000000057298ms
+2018-08-29T11:21:48.468Z - normal: Simulator: JS: Activate: 55.05200000000002ms
+2018-08-29T11:21:50.485Z - normal: Simulator: JS: create a player start
+2018-08-29T11:21:50.555Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:21:50.557Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:21:50.562Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:21:50.575Z - normal: Simulator: JS: start check
+2018-08-29T11:21:50.575Z - normal: Simulator: JS: false
+2018-08-29T11:21:50.576Z - normal: Simulator: JS: start check
+2018-08-29T11:21:50.576Z - normal: Simulator: JS: true
+2018-08-29T11:21:50.576Z - normal: Simulator: JS: start check
+2018-08-29T11:21:50.576Z - normal: Simulator: JS: true
+2018-08-29T11:21:50.578Z - normal: Simulator: JS: create other player
+2018-08-29T11:21:50.596Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:21:50.599Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:21:50.599Z - normal: Simulator: JS: start check
+2018-08-29T11:21:50.600Z - normal: Simulator: JS: false
+2018-08-29T11:21:50.600Z - normal: Simulator: JS: start check
+2018-08-29T11:21:50.600Z - normal: Simulator: JS: true
+2018-08-29T11:21:50.600Z - normal: Simulator: JS: start check
+2018-08-29T11:21:50.601Z - normal: Simulator: JS: true
+2018-08-29T11:21:50.621Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:21:50.622Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:21:50.622Z - normal: Simulator: JS: start check
+2018-08-29T11:21:50.622Z - normal: Simulator: JS: false
+2018-08-29T11:21:50.623Z - normal: Simulator: JS: start check
+2018-08-29T11:21:50.623Z - normal: Simulator: JS: true
+2018-08-29T11:21:50.624Z - normal: Simulator: JS: start check
+2018-08-29T11:21:50.624Z - normal: Simulator: JS: true
+2018-08-29T11:21:50.624Z - normal: Simulator: JS: create a player start
+2018-08-29T11:21:50.624Z - normal: Simulator: JS: this place has already been taken by other player
+2018-08-29T11:21:50.625Z - normal: Simulator: JS: create other player
+2018-08-29T11:21:50.625Z - normal: Simulator: JS: this place has already been taken by other player
+2018-08-29T11:21:50.625Z - normal: Simulator: JS: this place has already been taken by other player
+2018-08-29T11:21:52.486Z - normal: Simulator: JS: ready for others
+2018-08-29T11:21:52.492Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:21:52.494Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:21:52.495Z - normal: Simulator: JS: start check
+2018-08-29T11:21:52.496Z - normal: Simulator: JS: false
+2018-08-29T11:21:52.496Z - normal: Simulator: JS: start check
+2018-08-29T11:21:52.497Z - normal: Simulator: JS: true
+2018-08-29T11:21:52.497Z - normal: Simulator: JS: start check
+2018-08-29T11:21:52.497Z - normal: Simulator: JS: true
+2018-08-29T11:21:52.498Z - normal: Simulator: JS: ready for others
+2018-08-29T11:21:52.506Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:21:52.506Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:21:52.506Z - normal: Simulator: JS: start check
+2018-08-29T11:21:52.507Z - normal: Simulator: JS: false
+2018-08-29T11:21:52.507Z - normal: Simulator: JS: start check
+2018-08-29T11:21:52.507Z - normal: Simulator: JS: true
+2018-08-29T11:21:52.507Z - normal: Simulator: JS: start check
+2018-08-29T11:21:52.508Z - normal: Simulator: JS: true
+2018-08-29T11:21:54.803Z - normal: Simulator: JS: me want to ready
+2018-08-29T11:21:54.812Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:21:54.813Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:21:54.822Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:21:54.822Z - normal: Simulator: JS: start check
+2018-08-29T11:21:54.823Z - normal: Simulator: JS: true
+2018-08-29T11:21:54.823Z - normal: Simulator: JS: start check
+2018-08-29T11:21:54.823Z - normal: Simulator: JS: true
+2018-08-29T11:21:54.824Z - normal: Simulator: JS: start check
+2018-08-29T11:21:54.824Z - normal: Simulator: JS: true
+2018-08-29T11:21:54.824Z - normal: Simulator: JS: start card game
+2018-08-29T11:21:54.845Z - normal: Simulator: JS: total create card :
+2018-08-29T11:21:54.845Z - normal: Simulator: JS: 54
+2018-08-29T11:22:00.521Z - normal: Simulator: ScriptEngine::cleanup begin ...
+2018-08-29T11:22:00.522Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 348
+2018-08-29T11:22:00.533Z - normal: Simulator: GC end ..., (Native -> JS map) count: 210
+2018-08-29T11:22:00.543Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 210
+2018-08-29T11:22:00.544Z - normal: Simulator: GC end ..., (Native -> JS map) count: 210
+2018-08-29T11:22:00.544Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 210
+2018-08-29T11:22:00.547Z - normal: Simulator: GC end ..., (Native -> JS map) count: 210
+2018-08-29T11:22:00.582Z - normal: Simulator: ScriptEngine::cleanup end ...
+2018-08-29T11:36:47.633Z - normal: Simulator: WORKAREA WIDTH 1920.00, HEIGHT 1035.00
+2018-08-29T11:36:47.635Z - normal: Simulator: FRAME SCALE = 1.00
+2018-08-29T11:36:47.747Z - normal: Simulator: 
+2018-08-29T11:36:47.776Z - normal: Simulator: {
+2018-08-29T11:36:47.776Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2018-08-29T11:36:47.777Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2018-08-29T11:36:47.777Z - normal: Simulator: 	cocos2d.x.version: 1.7.0
+2018-08-29T11:36:47.777Z - normal: Simulator: 	gl.vendor: Intel Inc.
+2018-08-29T11:36:47.777Z - normal: Simulator: 	gl.supports_PVRTC: false
+2018-08-29T11:36:47.777Z - normal: Simulator: 	gl.renderer: Intel HD Graphics 5000 OpenGL Engine
+2018-08-29T11:36:47.778Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2018-08-29T11:36:47.778Z - normal: Simulator: 	gl.max_texture_size: 16384
+2018-08-29T11:36:47.778Z - normal: Simulator: 	gl.supports_ETC1: false
+2018-08-29T11:36:47.778Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2018-08-29T11:36:47.779Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2018-08-29T11:36:47.779Z - normal: Simulator: 	gl.max_texture_units: 16
+2018-08-29T11:36:47.779Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2018-08-29T11:36:47.779Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2018-08-29T11:36:47.779Z - normal: Simulator: 	gl.supports_NPOT: true
+2018-08-29T11:36:47.780Z - normal: Simulator: 	gl.version: 2.1 INTEL-10.36.19
+2018-08-29T11:36:47.780Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2018-08-29T11:36:47.780Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2018-08-29T11:36:47.780Z - normal: Simulator: }
+2018-08-29T11:36:47.781Z - normal: Simulator: 
+2018-08-29T11:36:47.781Z - normal: Simulator: 
+2018-08-29T11:36:47.781Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2018-08-29T11:36:47.847Z - normal: Simulator: Project Config:
+2018-08-29T11:36:47.847Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2018-08-29T11:36:47.847Z - normal: Simulator:     writable path: $(PROJDIR)/
+2018-08-29T11:36:47.848Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2018-08-29T11:36:47.848Z - normal: Simulator:     frame size: 960 x 640
+2018-08-29T11:36:47.849Z - normal: Simulator:     frame scale: 1.00
+2018-08-29T11:36:47.849Z - normal: Simulator:     show console: NO
+2018-08-29T11:36:47.849Z - normal: Simulator:     write debug log: NO ()
+2018-08-29T11:36:47.849Z - normal: Simulator:     listen: 
+2018-08-29T11:36:47.850Z - normal: Simulator:     debugger: none
+2018-08-29T11:36:47.850Z - normal: Simulator:     add searching path:
+2018-08-29T11:36:47.850Z - normal: Simulator: ------------------------------------------------
+2018-08-29T11:36:47.851Z - normal: Simulator: LOAD Js FILE: main.js
+2018-08-29T11:36:47.851Z - normal: Simulator: ------------------------------------------------
+2018-08-29T11:36:47.851Z - normal: Simulator: Initializing JavaScriptCore 
+2018-08-29T11:36:47.969Z - normal: Simulator: JS: Cocos2d-x-lite v1.7.0
+2018-08-29T11:36:48.370Z - normal: Simulator: iShow!
+2018-08-29T11:36:48.586Z - normal: Simulator: JS: InitScene: 3.1399999999999864ms
+2018-08-29T11:36:48.586Z - normal: Simulator: JS: AutoRelease: 0.18299999999999272ms
+2018-08-29T11:36:48.589Z - normal: Simulator: JS: Destroy: 0.10099999999999909ms
+2018-08-29T11:36:48.589Z - normal: Simulator: JS: AttachPersist: 0.01599999999996271ms
+2018-08-29T11:36:48.648Z - normal: Simulator: JS: Activate: 62.01800000000003ms
+2018-08-29T11:36:50.669Z - normal: Simulator: JS: create a player start
+2018-08-29T11:36:50.740Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:36:50.742Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:36:50.746Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:36:50.758Z - normal: Simulator: JS: start check
+2018-08-29T11:36:50.759Z - normal: Simulator: JS: false
+2018-08-29T11:36:50.760Z - normal: Simulator: JS: start check
+2018-08-29T11:36:50.760Z - normal: Simulator: JS: true
+2018-08-29T11:36:50.761Z - normal: Simulator: JS: start check
+2018-08-29T11:36:50.761Z - normal: Simulator: JS: true
+2018-08-29T11:36:50.761Z - normal: Simulator: JS: create other player
+2018-08-29T11:36:50.764Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:36:50.768Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:36:50.786Z - normal: Simulator: JS: start check
+2018-08-29T11:36:50.787Z - normal: Simulator: JS: false
+2018-08-29T11:36:50.787Z - normal: Simulator: JS: start check
+2018-08-29T11:36:50.788Z - normal: Simulator: JS: true
+2018-08-29T11:36:50.788Z - normal: Simulator: JS: start check
+2018-08-29T11:36:50.788Z - normal: Simulator: JS: true
+2018-08-29T11:36:50.789Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:36:50.789Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:36:50.789Z - normal: Simulator: JS: start check
+2018-08-29T11:36:50.789Z - normal: Simulator: JS: false
+2018-08-29T11:36:50.790Z - normal: Simulator: JS: start check
+2018-08-29T11:36:50.790Z - normal: Simulator: JS: true
+2018-08-29T11:36:50.790Z - normal: Simulator: JS: start check
+2018-08-29T11:36:50.790Z - normal: Simulator: JS: true
+2018-08-29T11:36:50.791Z - normal: Simulator: JS: create a player start
+2018-08-29T11:36:50.791Z - normal: Simulator: JS: this place has already been taken by other player
+2018-08-29T11:36:50.791Z - normal: Simulator: JS: create other player
+2018-08-29T11:36:50.791Z - normal: Simulator: JS: this place has already been taken by other player
+2018-08-29T11:36:50.792Z - normal: Simulator: JS: this place has already been taken by other player
+2018-08-29T11:36:52.682Z - normal: Simulator: JS: ready for others
+2018-08-29T11:36:52.691Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:36:52.695Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:36:52.695Z - normal: Simulator: JS: start check
+2018-08-29T11:36:52.696Z - normal: Simulator: JS: false
+2018-08-29T11:36:52.696Z - normal: Simulator: JS: start check
+2018-08-29T11:36:52.696Z - normal: Simulator: JS: true
+2018-08-29T11:36:52.696Z - normal: Simulator: JS: start check
+2018-08-29T11:36:52.697Z - normal: Simulator: JS: true
+2018-08-29T11:36:52.697Z - normal: Simulator: JS: ready for others
+2018-08-29T11:36:52.698Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:36:52.707Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:36:52.708Z - normal: Simulator: JS: start check
+2018-08-29T11:36:52.708Z - normal: Simulator: JS: false
+2018-08-29T11:36:52.708Z - normal: Simulator: JS: start check
+2018-08-29T11:36:52.709Z - normal: Simulator: JS: true
+2018-08-29T11:36:52.709Z - normal: Simulator: JS: start check
+2018-08-29T11:36:52.709Z - normal: Simulator: JS: true
+2018-08-29T11:36:54.224Z - normal: Simulator: JS: me want to ready
+2018-08-29T11:36:54.234Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:36:54.243Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:36:54.247Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:36:54.248Z - normal: Simulator: JS: start check
+2018-08-29T11:36:54.251Z - normal: Simulator: JS: true
+2018-08-29T11:36:54.252Z - normal: Simulator: JS: start check
+2018-08-29T11:36:54.255Z - normal: Simulator: JS: true
+2018-08-29T11:36:54.255Z - normal: Simulator: JS: start check
+2018-08-29T11:36:54.256Z - normal: Simulator: JS: true
+2018-08-29T11:36:54.256Z - normal: Simulator: JS: start card game
+2018-08-29T11:36:54.274Z - normal: Simulator: JS: total create card :
+2018-08-29T11:36:54.275Z - normal: Simulator: JS: 54
+2018-08-29T11:36:54.295Z - normal: Simulator: ERROR: TypeError: undefined is not an object (evaluating 'child._localZOrder'), location: src/jsb_polyfill.js:6425:55
+2018-08-29T11:36:54.296Z - normal: Simulator: STACK:
+2018-08-29T11:36:54.296Z - normal: Simulator: addChild@src/jsb_polyfill.js:6425:55
+2018-08-29T11:36:54.296Z - normal: Simulator: assets/Script/Game/doudizu.js:204:31
+2018-08-29T11:36:54.296Z - normal: Simulator: forEach@[native code]
+2018-08-29T11:36:54.297Z - normal: Simulator: putCardInCBT@assets/Script/Game/doudizu.js:203:19
+2018-08-29T11:36:54.297Z - normal: Simulator: startGame@assets/Script/Game/doudizu.js:199:26
+2018-08-29T11:36:54.297Z - normal: Simulator: changeSTM@assets/Script/Game/Place/place.js:86:30
+2018-08-29T11:36:54.298Z - normal: Simulator: readyBtnClicked@assets/Script/Game/Place/menotready.js:32:30
+2018-08-29T11:36:54.298Z - normal: Simulator: emit@src/jsb_polyfill.js:9200:24
+2018-08-29T11:36:54.298Z - normal: Simulator: emitEvents@src/jsb_polyfill.js:9185:25
+2018-08-29T11:36:54.299Z - normal: Simulator: _onTouchEnded@src/jsb_polyfill.js:8769:49
+2018-08-29T11:36:54.299Z - normal: Simulator: invoke@src/jsb_polyfill.js:14257:28
+2018-08-29T11:36:54.299Z - normal: Simulator: _doDispatchEvent@src/jsb_polyfill.js:14303:109
+2018-08-29T11:36:54.300Z - normal: Simulator: dispatchEvent@src/jsb_polyfill.js:14420:25
+2018-08-29T11:36:54.300Z - normal: Simulator: _touchEndHandler@src/jsb_polyfill.js:5532:27
+2018-08-29T11:36:54.300Z - normal: Simulator: jsb: ERROR: File /Users/nantas/fireball-x/fireball_1.7.1/cocos2d-x-lite/cocos/scripting/js-bindings/manual/jsb_cocos2dx_manual.cpp: Line: 460, Function: invokeJSTouchOneByOneCallback
+2018-08-29T11:36:54.300Z - normal: Simulator: invokeJSTouchOneByOneCallback call function failed!
+2018-08-29T11:36:58.405Z - normal: Simulator: ScriptEngine::cleanup begin ...
+2018-08-29T11:36:58.405Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 239
+2018-08-29T11:36:58.417Z - normal: Simulator: GC end ..., (Native -> JS map) count: 210
+2018-08-29T11:36:58.417Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 210
+2018-08-29T11:36:58.433Z - normal: Simulator: GC end ..., (Native -> JS map) count: 210
+2018-08-29T11:36:58.434Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 210
+2018-08-29T11:36:58.434Z - normal: Simulator: GC end ..., (Native -> JS map) count: 210
+2018-08-29T11:36:58.503Z - normal: Simulator: ScriptEngine::cleanup end ...
+2018-08-29T11:41:35.050Z - normal: Simulator: WORKAREA WIDTH 1920.00, HEIGHT 1035.00
+2018-08-29T11:41:35.053Z - normal: Simulator: FRAME SCALE = 1.00
+2018-08-29T11:41:35.119Z - normal: Simulator: 
+2018-08-29T11:41:35.154Z - normal: Simulator: {
+2018-08-29T11:41:35.154Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2018-08-29T11:41:35.154Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2018-08-29T11:41:35.155Z - normal: Simulator: 	cocos2d.x.version: 1.7.0
+2018-08-29T11:41:35.155Z - normal: Simulator: 	gl.vendor: Intel Inc.
+2018-08-29T11:41:35.155Z - normal: Simulator: 	gl.supports_PVRTC: false
+2018-08-29T11:41:35.155Z - normal: Simulator: 	gl.renderer: Intel HD Graphics 5000 OpenGL Engine
+2018-08-29T11:41:35.156Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2018-08-29T11:41:35.156Z - normal: Simulator: 	gl.max_texture_size: 16384
+2018-08-29T11:41:35.156Z - normal: Simulator: 	gl.supports_ETC1: false
+2018-08-29T11:41:35.156Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2018-08-29T11:41:35.157Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2018-08-29T11:41:35.157Z - normal: Simulator: 	gl.max_texture_units: 16
+2018-08-29T11:41:35.157Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2018-08-29T11:41:35.157Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2018-08-29T11:41:35.157Z - normal: Simulator: 	gl.supports_NPOT: true
+2018-08-29T11:41:35.157Z - normal: Simulator: 	gl.version: 2.1 INTEL-10.36.19
+2018-08-29T11:41:35.157Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2018-08-29T11:41:35.158Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2018-08-29T11:41:35.158Z - normal: Simulator: }
+2018-08-29T11:41:35.158Z - normal: Simulator: 
+2018-08-29T11:41:35.158Z - normal: Simulator: 
+2018-08-29T11:41:35.158Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2018-08-29T11:41:35.208Z - normal: Simulator: Project Config:
+2018-08-29T11:41:35.209Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2018-08-29T11:41:35.209Z - normal: Simulator:     writable path: $(PROJDIR)/
+2018-08-29T11:41:35.210Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2018-08-29T11:41:35.210Z - normal: Simulator:     frame size: 960 x 640
+2018-08-29T11:41:35.210Z - normal: Simulator:     frame scale: 1.00
+2018-08-29T11:41:35.211Z - normal: Simulator:     show console: NO
+2018-08-29T11:41:35.211Z - normal: Simulator:     write debug log: NO ()
+2018-08-29T11:41:35.211Z - normal: Simulator:     listen: 
+2018-08-29T11:41:35.212Z - normal: Simulator:     debugger: none
+2018-08-29T11:41:35.212Z - normal: Simulator:     add searching path:
+2018-08-29T11:41:35.212Z - normal: Simulator: ------------------------------------------------
+2018-08-29T11:41:35.213Z - normal: Simulator: LOAD Js FILE: main.js
+2018-08-29T11:41:35.214Z - normal: Simulator: ------------------------------------------------
+2018-08-29T11:41:35.215Z - normal: Simulator: Initializing JavaScriptCore 
+2018-08-29T11:41:35.324Z - normal: Simulator: JS: Cocos2d-x-lite v1.7.0
+2018-08-29T11:41:35.643Z - normal: Simulator: iShow!
+2018-08-29T11:41:35.876Z - normal: Simulator: JS: InitScene: 2.7329999999999472ms
+2018-08-29T11:41:35.876Z - normal: Simulator: JS: AutoRelease: 0.17000000000007276ms
+2018-08-29T11:41:35.877Z - normal: Simulator: JS: Destroy: 0.1069999999999709ms
+2018-08-29T11:41:35.881Z - normal: Simulator: JS: AttachPersist: 0.013000000000033651ms
+2018-08-29T11:41:35.939Z - normal: Simulator: JS: Activate: 62.081999999999994ms
+2018-08-29T11:41:37.948Z - normal: Simulator: JS: create a player start
+2018-08-29T11:41:38.006Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:41:38.008Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:41:38.027Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:41:38.028Z - normal: Simulator: JS: start check
+2018-08-29T11:41:38.029Z - normal: Simulator: JS: false
+2018-08-29T11:41:38.030Z - normal: Simulator: JS: start check
+2018-08-29T11:41:38.030Z - normal: Simulator: JS: true
+2018-08-29T11:41:38.030Z - normal: Simulator: JS: start check
+2018-08-29T11:41:38.031Z - normal: Simulator: JS: true
+2018-08-29T11:41:38.031Z - normal: Simulator: JS: create other player
+2018-08-29T11:41:38.032Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:41:38.032Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:41:38.036Z - normal: Simulator: JS: start check
+2018-08-29T11:41:38.036Z - normal: Simulator: JS: false
+2018-08-29T11:41:38.037Z - normal: Simulator: JS: start check
+2018-08-29T11:41:38.037Z - normal: Simulator: JS: true
+2018-08-29T11:41:38.037Z - normal: Simulator: JS: start check
+2018-08-29T11:41:38.038Z - normal: Simulator: JS: true
+2018-08-29T11:41:38.056Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:41:38.056Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:41:38.057Z - normal: Simulator: JS: start check
+2018-08-29T11:41:38.058Z - normal: Simulator: JS: false
+2018-08-29T11:41:38.059Z - normal: Simulator: JS: start check
+2018-08-29T11:41:38.059Z - normal: Simulator: JS: true
+2018-08-29T11:41:38.060Z - normal: Simulator: JS: start check
+2018-08-29T11:41:38.060Z - normal: Simulator: JS: true
+2018-08-29T11:41:38.060Z - normal: Simulator: JS: create a player start
+2018-08-29T11:41:38.061Z - normal: Simulator: JS: this place has already been taken by other player
+2018-08-29T11:41:38.062Z - normal: Simulator: JS: create other player
+2018-08-29T11:41:38.062Z - normal: Simulator: JS: this place has already been taken by other player
+2018-08-29T11:41:38.062Z - normal: Simulator: JS: this place has already been taken by other player
+2018-08-29T11:41:39.964Z - normal: Simulator: JS: ready for others
+2018-08-29T11:41:39.971Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:41:39.976Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:41:39.977Z - normal: Simulator: JS: start check
+2018-08-29T11:41:39.977Z - normal: Simulator: JS: false
+2018-08-29T11:41:39.978Z - normal: Simulator: JS: start check
+2018-08-29T11:41:39.978Z - normal: Simulator: JS: true
+2018-08-29T11:41:39.978Z - normal: Simulator: JS: start check
+2018-08-29T11:41:39.979Z - normal: Simulator: JS: true
+2018-08-29T11:41:39.979Z - normal: Simulator: JS: ready for others
+2018-08-29T11:41:39.991Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:41:39.991Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:41:39.991Z - normal: Simulator: JS: start check
+2018-08-29T11:41:39.992Z - normal: Simulator: JS: false
+2018-08-29T11:41:39.992Z - normal: Simulator: JS: start check
+2018-08-29T11:41:39.992Z - normal: Simulator: JS: true
+2018-08-29T11:41:39.993Z - normal: Simulator: JS: start check
+2018-08-29T11:41:39.993Z - normal: Simulator: JS: true
+2018-08-29T11:41:44.057Z - normal: Simulator: JS: me want to ready
+2018-08-29T11:41:44.069Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:41:44.071Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:41:44.072Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:41:44.075Z - normal: Simulator: JS: start check
+2018-08-29T11:41:44.075Z - normal: Simulator: JS: true
+2018-08-29T11:41:44.076Z - normal: Simulator: JS: start check
+2018-08-29T11:41:44.076Z - normal: Simulator: JS: true
+2018-08-29T11:41:44.076Z - normal: Simulator: JS: start check
+2018-08-29T11:41:44.077Z - normal: Simulator: JS: true
+2018-08-29T11:41:44.077Z - normal: Simulator: JS: start card game
+2018-08-29T11:41:44.102Z - normal: Simulator: JS: total create card :
+2018-08-29T11:41:44.102Z - normal: Simulator: JS: 54
+2018-08-29T11:41:44.103Z - normal: Simulator: JS: [object Object]
+2018-08-29T11:41:44.104Z - normal: Simulator: JS: undefined
+2018-08-29T11:41:44.117Z - normal: Simulator: ERROR: TypeError: undefined is not an object (evaluating 'child._localZOrder'), location: src/jsb_polyfill.js:6425:55
+2018-08-29T11:41:44.118Z - normal: Simulator: STACK:
+2018-08-29T11:41:44.118Z - normal: Simulator: addChild@src/jsb_polyfill.js:6425:55
+2018-08-29T11:41:44.118Z - normal: Simulator: assets/Script/Game/doudizu.js:207:31
+2018-08-29T11:41:44.118Z - normal: Simulator: forEach@[native code]
+2018-08-29T11:41:44.119Z - normal: Simulator: putCardInCBT@assets/Script/Game/doudizu.js:203:19
+2018-08-29T11:41:44.119Z - normal: Simulator: startGame@assets/Script/Game/doudizu.js:199:26
+2018-08-29T11:41:44.119Z - normal: Simulator: changeSTM@assets/Script/Game/Place/place.js:86:30
+2018-08-29T11:41:44.119Z - normal: Simulator: readyBtnClicked@assets/Script/Game/Place/menotready.js:32:30
+2018-08-29T11:41:44.119Z - normal: Simulator: emit@src/jsb_polyfill.js:9200:24
+2018-08-29T11:41:44.120Z - normal: Simulator: emitEvents@src/jsb_polyfill.js:9185:25
+2018-08-29T11:41:44.120Z - normal: Simulator: _onTouchEnded@src/jsb_polyfill.js:8769:49
+2018-08-29T11:41:44.121Z - normal: Simulator: invoke@src/jsb_polyfill.js:14257:28
+2018-08-29T11:41:44.121Z - normal: Simulator: _doDispatchEvent@src/jsb_polyfill.js:14303:109
+2018-08-29T11:41:44.121Z - normal: Simulator: dispatchEvent@src/jsb_polyfill.js:14420:25
+2018-08-29T11:41:44.121Z - normal: Simulator: _touchEndHandler@src/jsb_polyfill.js:5532:27
+2018-08-29T11:41:44.121Z - normal: Simulator: jsb: ERROR: File /Users/nantas/fireball-x/fireball_1.7.1/cocos2d-x-lite/cocos/scripting/js-bindings/manual/jsb_cocos2dx_manual.cpp: Line: 460, Function: invokeJSTouchOneByOneCallback
+2018-08-29T11:41:44.122Z - normal: Simulator: invokeJSTouchOneByOneCallback call function failed!
+2018-08-29T11:43:43.148Z - normal: Simulator: WORKAREA WIDTH 1920.00, HEIGHT 1035.00
+2018-08-29T11:43:43.151Z - normal: Simulator: FRAME SCALE = 1.00
+2018-08-29T11:43:43.275Z - normal: Simulator: 
+2018-08-29T11:43:43.276Z - normal: Simulator: {
+2018-08-29T11:43:43.276Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2018-08-29T11:43:43.276Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2018-08-29T11:43:43.277Z - normal: Simulator: 	cocos2d.x.version: 1.7.0
+2018-08-29T11:43:43.277Z - normal: Simulator: 	gl.vendor: Intel Inc.
+2018-08-29T11:43:43.277Z - normal: Simulator: 	gl.supports_PVRTC: false
+2018-08-29T11:43:43.277Z - normal: Simulator: 	gl.renderer: Intel HD Graphics 5000 OpenGL Engine
+2018-08-29T11:43:43.278Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2018-08-29T11:43:43.278Z - normal: Simulator: 	gl.max_texture_size: 16384
+2018-08-29T11:43:43.278Z - normal: Simulator: 	gl.supports_ETC1: false
+2018-08-29T11:43:43.279Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2018-08-29T11:43:43.279Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2018-08-29T11:43:43.279Z - normal: Simulator: 	gl.max_texture_units: 16
+2018-08-29T11:43:43.279Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2018-08-29T11:43:43.279Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2018-08-29T11:43:43.280Z - normal: Simulator: 	gl.supports_NPOT: true
+2018-08-29T11:43:43.280Z - normal: Simulator: 	gl.version: 2.1 INTEL-10.36.19
+2018-08-29T11:43:43.280Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2018-08-29T11:43:43.280Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2018-08-29T11:43:43.280Z - normal: Simulator: }
+2018-08-29T11:43:43.281Z - normal: Simulator: 
+2018-08-29T11:43:43.281Z - normal: Simulator: 
+2018-08-29T11:43:43.281Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2018-08-29T11:43:43.309Z - normal: Simulator: Project Config:
+2018-08-29T11:43:43.310Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2018-08-29T11:43:43.310Z - normal: Simulator:     writable path: $(PROJDIR)/
+2018-08-29T11:43:43.310Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2018-08-29T11:43:43.311Z - normal: Simulator:     frame size: 960 x 640
+2018-08-29T11:43:43.311Z - normal: Simulator:     frame scale: 1.00
+2018-08-29T11:43:43.313Z - normal: Simulator:     show console: NO
+2018-08-29T11:43:43.314Z - normal: Simulator:     write debug log: NO ()
+2018-08-29T11:43:43.315Z - normal: Simulator:     listen: 
+2018-08-29T11:43:43.315Z - normal: Simulator:     debugger: none
+2018-08-29T11:43:43.316Z - normal: Simulator:     add searching path:
+2018-08-29T11:43:43.316Z - normal: Simulator: ------------------------------------------------
+2018-08-29T11:43:43.317Z - normal: Simulator: LOAD Js FILE: main.js
+2018-08-29T11:43:43.317Z - normal: Simulator: ------------------------------------------------
+2018-08-29T11:43:43.318Z - normal: Simulator: Initializing JavaScriptCore 
+2018-08-29T11:43:43.444Z - normal: Simulator: JS: Cocos2d-x-lite v1.7.0
+2018-08-29T11:43:43.799Z - normal: Simulator: iShow!
+2018-08-29T11:43:43.990Z - normal: Simulator: JS: InitScene: 2.9769999999999754ms
+2018-08-29T11:43:43.990Z - normal: Simulator: JS: AutoRelease: 0.22700000000008913ms
+2018-08-29T11:43:43.990Z - normal: Simulator: JS: Destroy: 0.1150000000000091ms
+2018-08-29T11:43:43.991Z - normal: Simulator: JS: AttachPersist: 0.008000000000038199ms
+2018-08-29T11:43:44.037Z - normal: Simulator: JS: Activate: 47.490999999999985ms
+2018-08-29T11:43:46.084Z - normal: Simulator: JS: create a player start
+2018-08-29T11:43:46.130Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:43:46.141Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:43:46.141Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:43:46.157Z - normal: Simulator: JS: start check
+2018-08-29T11:43:46.157Z - normal: Simulator: JS: false
+2018-08-29T11:43:46.158Z - normal: Simulator: JS: start check
+2018-08-29T11:43:46.158Z - normal: Simulator: JS: true
+2018-08-29T11:43:46.159Z - normal: Simulator: JS: start check
+2018-08-29T11:43:46.159Z - normal: Simulator: JS: true
+2018-08-29T11:43:46.160Z - normal: Simulator: JS: create other player
+2018-08-29T11:43:46.175Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:43:46.181Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:43:46.192Z - normal: Simulator: JS: start check
+2018-08-29T11:43:46.193Z - normal: Simulator: JS: false
+2018-08-29T11:43:46.193Z - normal: Simulator: JS: start check
+2018-08-29T11:43:46.193Z - normal: Simulator: JS: true
+2018-08-29T11:43:46.194Z - normal: Simulator: JS: start check
+2018-08-29T11:43:46.195Z - normal: Simulator: JS: true
+2018-08-29T11:43:46.195Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:43:46.196Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:43:46.196Z - normal: Simulator: JS: start check
+2018-08-29T11:43:46.197Z - normal: Simulator: JS: false
+2018-08-29T11:43:46.198Z - normal: Simulator: JS: start check
+2018-08-29T11:43:46.199Z - normal: Simulator: JS: true
+2018-08-29T11:43:46.199Z - normal: Simulator: JS: start check
+2018-08-29T11:43:46.199Z - normal: Simulator: JS: true
+2018-08-29T11:43:46.200Z - normal: Simulator: JS: create a player start
+2018-08-29T11:43:46.201Z - normal: Simulator: JS: this place has already been taken by other player
+2018-08-29T11:43:46.201Z - normal: Simulator: JS: create other player
+2018-08-29T11:43:46.202Z - normal: Simulator: JS: this place has already been taken by other player
+2018-08-29T11:43:46.202Z - normal: Simulator: JS: this place has already been taken by other player
+2018-08-29T11:43:48.070Z - normal: Simulator: JS: ready for others
+2018-08-29T11:43:48.076Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:43:48.076Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:43:48.079Z - normal: Simulator: JS: start check
+2018-08-29T11:43:48.079Z - normal: Simulator: JS: false
+2018-08-29T11:43:48.080Z - normal: Simulator: JS: start check
+2018-08-29T11:43:48.080Z - normal: Simulator: JS: true
+2018-08-29T11:43:48.080Z - normal: Simulator: JS: start check
+2018-08-29T11:43:48.081Z - normal: Simulator: JS: true
+2018-08-29T11:43:48.081Z - normal: Simulator: JS: ready for others
+2018-08-29T11:43:48.090Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:43:48.090Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:43:48.092Z - normal: Simulator: JS: start check
+2018-08-29T11:43:48.092Z - normal: Simulator: JS: false
+2018-08-29T11:43:48.093Z - normal: Simulator: JS: start check
+2018-08-29T11:43:48.093Z - normal: Simulator: JS: true
+2018-08-29T11:43:48.094Z - normal: Simulator: JS: start check
+2018-08-29T11:43:48.094Z - normal: Simulator: JS: true
+2018-08-29T11:43:49.869Z - normal: Simulator: JS: me want to ready
+2018-08-29T11:43:49.879Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:43:49.881Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:43:49.891Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:43:49.891Z - normal: Simulator: JS: start check
+2018-08-29T11:43:49.892Z - normal: Simulator: JS: true
+2018-08-29T11:43:49.892Z - normal: Simulator: JS: start check
+2018-08-29T11:43:49.893Z - normal: Simulator: JS: true
+2018-08-29T11:43:49.893Z - normal: Simulator: JS: start check
+2018-08-29T11:43:49.893Z - normal: Simulator: JS: true
+2018-08-29T11:43:49.893Z - normal: Simulator: JS: start card game
+2018-08-29T11:43:49.918Z - normal: Simulator: JS: total create card :
+2018-08-29T11:43:49.918Z - normal: Simulator: JS: 54
+2018-08-29T11:43:53.676Z - normal: Simulator: ScriptEngine::cleanup begin ...
+2018-08-29T11:43:53.677Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 348
+2018-08-29T11:43:53.688Z - normal: Simulator: GC end ..., (Native -> JS map) count: 318
+2018-08-29T11:43:53.689Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 318
+2018-08-29T11:43:53.695Z - normal: Simulator: GC end ..., (Native -> JS map) count: 318
+2018-08-29T11:43:53.695Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 318
+2018-08-29T11:43:53.711Z - normal: Simulator: GC end ..., (Native -> JS map) count: 318
+2018-08-29T11:43:53.730Z - normal: Simulator: ScriptEngine::cleanup end ...
+2018-08-29T11:45:05.921Z - normal: Simulator: WORKAREA WIDTH 1920.00, HEIGHT 1035.00
+2018-08-29T11:45:05.922Z - normal: Simulator: FRAME SCALE = 1.00
+2018-08-29T11:45:06.010Z - normal: Simulator: 
+2018-08-29T11:45:06.011Z - normal: Simulator: {
+2018-08-29T11:45:06.011Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2018-08-29T11:45:06.012Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2018-08-29T11:45:06.012Z - normal: Simulator: 	cocos2d.x.version: 1.7.0
+2018-08-29T11:45:06.012Z - normal: Simulator: 	gl.vendor: Intel Inc.
+2018-08-29T11:45:06.013Z - normal: Simulator: 	gl.supports_PVRTC: false
+2018-08-29T11:45:06.013Z - normal: Simulator: 	gl.renderer: Intel HD Graphics 5000 OpenGL Engine
+2018-08-29T11:45:06.013Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2018-08-29T11:45:06.013Z - normal: Simulator: 	gl.max_texture_size: 16384
+2018-08-29T11:45:06.014Z - normal: Simulator: 	gl.supports_ETC1: false
+2018-08-29T11:45:06.014Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2018-08-29T11:45:06.014Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2018-08-29T11:45:06.014Z - normal: Simulator: 	gl.max_texture_units: 16
+2018-08-29T11:45:06.015Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2018-08-29T11:45:06.015Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2018-08-29T11:45:06.015Z - normal: Simulator: 	gl.supports_NPOT: true
+2018-08-29T11:45:06.016Z - normal: Simulator: 	gl.version: 2.1 INTEL-10.36.19
+2018-08-29T11:45:06.016Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2018-08-29T11:45:06.016Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2018-08-29T11:45:06.016Z - normal: Simulator: }
+2018-08-29T11:45:06.045Z - normal: Simulator: 
+2018-08-29T11:45:06.046Z - normal: Simulator: 
+2018-08-29T11:45:06.046Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2018-08-29T11:45:06.076Z - normal: Simulator: Project Config:
+2018-08-29T11:45:06.077Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2018-08-29T11:45:06.077Z - normal: Simulator:     writable path: $(PROJDIR)/
+2018-08-29T11:45:06.078Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2018-08-29T11:45:06.080Z - normal: Simulator:     frame size: 960 x 640
+2018-08-29T11:45:06.080Z - normal: Simulator:     frame scale: 1.00
+2018-08-29T11:45:06.080Z - normal: Simulator:     show console: NO
+2018-08-29T11:45:06.081Z - normal: Simulator:     write debug log: NO ()
+2018-08-29T11:45:06.083Z - normal: Simulator:     listen: 
+2018-08-29T11:45:06.083Z - normal: Simulator:     debugger: none
+2018-08-29T11:45:06.084Z - normal: Simulator:     add searching path:
+2018-08-29T11:45:06.084Z - normal: Simulator: ------------------------------------------------
+2018-08-29T11:45:06.084Z - normal: Simulator: LOAD Js FILE: main.js
+2018-08-29T11:45:06.084Z - normal: Simulator: ------------------------------------------------
+2018-08-29T11:45:06.085Z - normal: Simulator: Initializing JavaScriptCore 
+2018-08-29T11:45:06.187Z - normal: Simulator: JS: Cocos2d-x-lite v1.7.0
+2018-08-29T11:45:06.552Z - normal: Simulator: iShow!
+2018-08-29T11:45:06.787Z - normal: Simulator: JS: InitScene: 3.5639999999999645ms
+2018-08-29T11:45:06.788Z - normal: Simulator: JS: AutoRelease: 0.43899999999996453ms
+2018-08-29T11:45:06.789Z - normal: Simulator: JS: Destroy: 0.14999999999997726ms
+2018-08-29T11:45:06.789Z - normal: Simulator: JS: AttachPersist: 0.012000000000057298ms
+2018-08-29T11:45:06.844Z - normal: Simulator: JS: Activate: 40.043000000000006ms
+2018-08-29T11:45:08.849Z - normal: Simulator: JS: create a player start
+2018-08-29T11:45:08.914Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:45:08.917Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:45:08.930Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:45:08.931Z - normal: Simulator: JS: start check
+2018-08-29T11:45:08.931Z - normal: Simulator: JS: false
+2018-08-29T11:45:08.931Z - normal: Simulator: JS: start check
+2018-08-29T11:45:08.931Z - normal: Simulator: JS: true
+2018-08-29T11:45:08.931Z - normal: Simulator: JS: start check
+2018-08-29T11:45:08.931Z - normal: Simulator: JS: true
+2018-08-29T11:45:08.932Z - normal: Simulator: JS: create other player
+2018-08-29T11:45:08.954Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:45:08.969Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:45:08.970Z - normal: Simulator: JS: start check
+2018-08-29T11:45:08.970Z - normal: Simulator: JS: false
+2018-08-29T11:45:08.970Z - normal: Simulator: JS: start check
+2018-08-29T11:45:08.971Z - normal: Simulator: JS: true
+2018-08-29T11:45:08.971Z - normal: Simulator: JS: start check
+2018-08-29T11:45:08.971Z - normal: Simulator: JS: true
+2018-08-29T11:45:08.971Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:45:08.972Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:45:08.972Z - normal: Simulator: JS: start check
+2018-08-29T11:45:08.974Z - normal: Simulator: JS: false
+2018-08-29T11:45:08.975Z - normal: Simulator: JS: start check
+2018-08-29T11:45:08.975Z - normal: Simulator: JS: true
+2018-08-29T11:45:08.975Z - normal: Simulator: JS: start check
+2018-08-29T11:45:08.975Z - normal: Simulator: JS: true
+2018-08-29T11:45:08.976Z - normal: Simulator: JS: create a player start
+2018-08-29T11:45:08.976Z - normal: Simulator: JS: this place has already been taken by other player
+2018-08-29T11:45:08.976Z - normal: Simulator: JS: create other player
+2018-08-29T11:45:08.976Z - normal: Simulator: JS: this place has already been taken by other player
+2018-08-29T11:45:08.977Z - normal: Simulator: JS: this place has already been taken by other player
+2018-08-29T11:45:10.865Z - normal: Simulator: JS: ready for others
+2018-08-29T11:45:10.877Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:45:10.877Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:45:10.878Z - normal: Simulator: JS: start check
+2018-08-29T11:45:10.878Z - normal: Simulator: JS: false
+2018-08-29T11:45:10.878Z - normal: Simulator: JS: start check
+2018-08-29T11:45:10.879Z - normal: Simulator: JS: true
+2018-08-29T11:45:10.879Z - normal: Simulator: JS: start check
+2018-08-29T11:45:10.879Z - normal: Simulator: JS: true
+2018-08-29T11:45:10.880Z - normal: Simulator: JS: ready for others
+2018-08-29T11:45:10.883Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:45:10.885Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:45:10.886Z - normal: Simulator: JS: start check
+2018-08-29T11:45:10.887Z - normal: Simulator: JS: false
+2018-08-29T11:45:10.887Z - normal: Simulator: JS: start check
+2018-08-29T11:45:10.887Z - normal: Simulator: JS: true
+2018-08-29T11:45:10.887Z - normal: Simulator: JS: start check
+2018-08-29T11:45:10.888Z - normal: Simulator: JS: true
+2018-08-29T11:45:12.255Z - normal: Simulator: JS: me want to ready
+2018-08-29T11:45:12.266Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:45:12.275Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:45:12.276Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-08-29T11:45:12.277Z - normal: Simulator: JS: start check
+2018-08-29T11:45:12.277Z - normal: Simulator: JS: true
+2018-08-29T11:45:12.277Z - normal: Simulator: JS: start check
+2018-08-29T11:45:12.278Z - normal: Simulator: JS: true
+2018-08-29T11:45:12.278Z - normal: Simulator: JS: start check
+2018-08-29T11:45:12.278Z - normal: Simulator: JS: true
+2018-08-29T11:45:12.278Z - normal: Simulator: JS: start card game
+2018-08-29T11:45:12.297Z - normal: Simulator: JS: total create card :
+2018-08-29T11:45:12.298Z - normal: Simulator: JS: 54
+2018-08-29T11:46:04.699Z - normal: Simulator: ScriptEngine::cleanup begin ...
+2018-08-29T11:46:04.699Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 348
+2018-08-29T11:46:04.710Z - normal: Simulator: GC end ..., (Native -> JS map) count: 318
+2018-08-29T11:46:04.711Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 318
+2018-08-29T11:46:04.718Z - normal: Simulator: GC end ..., (Native -> JS map) count: 318
+2018-08-29T11:46:04.718Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 318
+2018-08-29T11:46:04.734Z - normal: Simulator: GC end ..., (Native -> JS map) count: 318
+2018-08-29T11:46:04.770Z - normal: Simulator: ScriptEngine::cleanup end ...

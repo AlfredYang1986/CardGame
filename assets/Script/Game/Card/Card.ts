@@ -6,10 +6,20 @@
 
 const {ccclass, property} = cc._decorator;
 
-import {place, status} from '../Place/place'
-
 @ccclass
 export class card extends cc.Component {
+
+    @property(cc.SpriteFrame)
+    front : cc.SpriteFrame = null
+
+    @property(cc.SpriteFrame)
+    back : cc.SpriteFrame = null
+
+    @property
+    number : number = 0
+    
+    @property
+    title : string = ""
 
     // LIFE-CYCLE CALLBACKS:
 
@@ -20,4 +30,20 @@ export class card extends cc.Component {
     }
 
     // update (dt) {},
+
+    setCardFrame(f : cc.SpriteFrame) {
+        this.front = f
+    }
+
+    setCardBack(b : cc.SpriteFrame) {
+        this.back = b
+    }
+
+    showBack() {
+        this.node.getComponent(cc.Sprite).spriteFrame = this.back
+    }
+
+    showFront() {
+        this.node.getComponent(cc.Sprite).spriteFrame = this.front
+    }
 }

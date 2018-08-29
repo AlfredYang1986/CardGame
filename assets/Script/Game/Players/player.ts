@@ -12,12 +12,16 @@
 
 import {Role} from '../Defines/Roles'
 
+import {card} from '../Card/card'
+
 // @ccclass
 export class player { //extends cc.Component {
 
     public playerName : string = null
     public playerPhoto : string = null
     public playerRole : Role = Role.normal
+
+    public cards : card[] = []
 
     // LIFE-CYCLE CALLBACKS:
 
