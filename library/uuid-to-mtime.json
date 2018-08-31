@@ -230,7 +230,7 @@
     "relativePath": "Scene"
   },
   "4734c20c-0db8-4eb2-92ea-e692f4d70934": {
-    "asset": 1535362874684,
+    "asset": 1535533581971,
     "meta": 1535355835922,
     "relativePath": "Script"
   },
@@ -250,7 +250,7 @@
     "relativePath": "Script/Lib/Fetch.js"
   },
   "7b81d4e8-ec84-4716-968d-500ac1d78a54": {
-    "asset": 1535355835925,
+    "asset": 1535530864445,
     "meta": 1535355835922,
     "relativePath": "Texture"
   },
@@ -270,8 +270,8 @@
     "relativePath": "Script/welcom_panel"
   },
   "c8ca50b0-cffb-4634-8bf2-22a56dbde939": {
-    "asset": 1535541705926,
-    "meta": 1535541705934,
+    "asset": 1535703611013,
+    "meta": 1535703611019,
     "relativePath": "Scene/play_table.fire"
   },
   "8963e25c-d70b-455e-bbef-d8c1382afe9f": {
@@ -280,7 +280,7 @@
     "relativePath": "Script/welcom_panel/loginBtn.ts"
   },
   "ac0c1c65-0aa4-4d2a-a55c-93d738f3fe2d": {
-    "asset": 1535441196655,
+    "asset": 1535526108402,
     "meta": 1535362874684,
     "relativePath": "Script/Game"
   },
@@ -355,83 +355,103 @@
     "relativePath": "Script/Game/Place/place.ts"
   },
   "bc697c3d-d8f2-402a-ba6b-0e726e5c2eb6": {
-    "asset": 1535526106343,
+    "asset": 1535538316159,
     "meta": 1535526106346,
     "relativePath": "Script/Game/Card"
   },
   "ba8c8eed-29a1-4149-b63f-4d279efa4c49": {
-    "asset": 1535530868371,
+    "asset": 1535544058277,
     "meta": 1535530868341,
     "relativePath": "resources"
-  },
-  "935e1265-6389-437a-887c-daade9b7ae6f": {
-    "asset": 1535537856697,
-    "meta": 1535538225183,
-    "relativePath": "Script/Game/Players/player.ts"
   },
   "b6e18694-76e8-4b3b-bff0-23a406631e6b": {
     "asset": 1535543020403,
     "meta": 1535543020414,
     "relativePath": "Script/Game/Card/Card.prefab"
   },
-  "8c82c136-0a10-43d8-b146-31c9c967d493": {
-    "asset": 1535540111581,
-    "meta": 1535540935379,
-    "relativePath": "resources/Card_C.plist"
-  },
-  "ed26534d-5314-4c3f-bb96-1c9a5f7f5a79": {
-    "asset": 1535540130274,
-    "meta": 1535540935391,
-    "relativePath": "resources/Card_D.plist"
-  },
-  "f635632e-e742-4577-aebf-0bfa94b6d509": {
-    "asset": 1535540111580,
-    "meta": 1535540935200,
-    "relativePath": "resources/Card_C.png"
-  },
-  "255b54a3-9973-4898-9f35-44a564278c38": {
-    "asset": 1535540130273,
-    "meta": 1535540935218,
-    "relativePath": "resources/Card_D.png"
-  },
-  "2bd39cda-74e4-4ffa-b56c-5760e9a84e47": {
-    "asset": 1535540151378,
-    "meta": 1535540935404,
-    "relativePath": "resources/Card_H.plist"
-  },
-  "aed54fa6-4f74-4f49-814d-ee9b68bb7f8d": {
-    "asset": 1535540170167,
-    "meta": 1535540935407,
-    "relativePath": "resources/Card_O.plist"
-  },
-  "c871fae0-5a5e-4689-906c-5fd9da7a57e4": {
-    "asset": 1535540170166,
-    "meta": 1535540935280,
-    "relativePath": "resources/Card_O.png"
-  },
-  "78c053d9-4a24-4993-841f-da8e96d1b8c8": {
-    "asset": 1535540189017,
-    "meta": 1535540935420,
-    "relativePath": "resources/Card_S.plist"
-  },
-  "9fbbee99-bce0-414c-a903-8ba5d87fdb40": {
-    "asset": 1535540151376,
-    "meta": 1535540935311,
-    "relativePath": "resources/Card_H.png"
-  },
-  "96d8f2eb-ea3a-4205-b791-639fb3f90fa9": {
-    "asset": 1535540189016,
-    "meta": 1535540935368,
-    "relativePath": "resources/Card_S.png"
-  },
   "cdbc8f26-bee8-4d5e-9942-7c07577d125a": {
     "asset": 1535542289440,
     "meta": 1535542481237,
     "relativePath": "Script/Game/Card/card.ts"
   },
+  "8c82c136-0a10-43d8-b146-31c9c967d493": {
+    "asset": 1535543962622,
+    "meta": 1535544066474,
+    "relativePath": "resources/Card_C.plist"
+  },
+  "ed26534d-5314-4c3f-bb96-1c9a5f7f5a79": {
+    "asset": 1535543975829,
+    "meta": 1535544066488,
+    "relativePath": "resources/Card_D.plist"
+  },
+  "f635632e-e742-4577-aebf-0bfa94b6d509": {
+    "asset": 1535543962621,
+    "meta": 1535544066320,
+    "relativePath": "resources/Card_C.png"
+  },
+  "255b54a3-9973-4898-9f35-44a564278c38": {
+    "asset": 1535543975827,
+    "meta": 1535544066325,
+    "relativePath": "resources/Card_D.png"
+  },
+  "2bd39cda-74e4-4ffa-b56c-5760e9a84e47": {
+    "asset": 1535543991609,
+    "meta": 1535544066508,
+    "relativePath": "resources/Card_H.plist"
+  },
+  "aed54fa6-4f74-4f49-814d-ee9b68bb7f8d": {
+    "asset": 1535544005276,
+    "meta": 1535544066515,
+    "relativePath": "resources/Card_O.plist"
+  },
+  "c871fae0-5a5e-4689-906c-5fd9da7a57e4": {
+    "asset": 1535544005275,
+    "meta": 1535544066368,
+    "relativePath": "resources/Card_O.png"
+  },
+  "78c053d9-4a24-4993-841f-da8e96d1b8c8": {
+    "asset": 1535544016382,
+    "meta": 1535544066529,
+    "relativePath": "resources/Card_S.plist"
+  },
+  "9fbbee99-bce0-414c-a903-8ba5d87fdb40": {
+    "asset": 1535543991608,
+    "meta": 1535544066406,
+    "relativePath": "resources/Card_H.png"
+  },
+  "96d8f2eb-ea3a-4205-b791-639fb3f90fa9": {
+    "asset": 1535544016381,
+    "meta": 1535544066456,
+    "relativePath": "resources/Card_S.png"
+  },
+  "335d6aad-a389-4e15-aed7-030efb285c82": {
+    "asset": 1535702599438,
+    "meta": 1535702599449,
+    "relativePath": "Script/Game/Players/playercards.prefab"
+  },
+  "1385dd49-305c-4512-a657-6558afecb175": {
+    "asset": 1535702519120,
+    "meta": 1535702525971,
+    "relativePath": "Script/Game/Players/playercards.ts"
+  },
+  "b02c2333-fb20-4ff2-b048-6f3aca3a9b64": {
+    "asset": 1535703609487,
+    "meta": 1535703609496,
+    "relativePath": "Script/Game/Players/playermecards.prefab"
+  },
+  "935e1265-6389-437a-887c-daade9b7ae6f": {
+    "asset": 1535703392830,
+    "meta": 1535703504408,
+    "relativePath": "Script/Game/Players/player.ts"
+  },
   "af0ca239-59c5-46b3-884a-b1c3acddb587": {
-    "asset": 1535543103013,
-    "meta": 1535543104110,
+    "asset": 1535703762020,
+    "meta": 1535703864925,
     "relativePath": "Script/Game/doudizu.ts"
+  },
+  "9204d922-41aa-4f39-8aa2-15f50c3a2e64": {
+    "asset": 1535706754667,
+    "meta": 1535706756907,
+    "relativePath": "Script/Game/Players/playermecards.ts"
   }
 }

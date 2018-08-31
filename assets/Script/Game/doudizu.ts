@@ -35,11 +35,13 @@ export class DouDiZhu extends cc.Component {
     @property(cc.Prefab)
     cf : cc.Prefab = null   // card factory
 
-    @property(cc.Node)
-    ctb : cc.Node = null
+    @property(cc.Prefab)
+    pf : cc.Prefab = null   // player cards factory
+    
+    @property(cc.Prefab)
+    pmf : cc.Prefab = null   // player me cards factory
 
-    @property(cc.Node)
-    ctf : cc.Node = null
+    cs : cc.Node[] = []
 
     isStarted : boolean = false
 
@@ -78,13 +80,11 @@ export class DouDiZhu extends cc.Component {
                 self.card_O = atlas
             }
         });
-
-        this.creatPlayer()
-        this.creatOtherPlayer()
     }
 
     start () {
-
+        this.creatPlayer()
+        this.creatOtherPlayer()
     }
 
     update (dt) {
@@ -127,12 +127,22 @@ export class DouDiZhu extends cc.Component {
                     const element = self.places[opp_left]
                     var p = new player('xie', 'xie')
                     element.resetCurPlayer(p, false)
+
+                    var tmp = cc.instantiate(self.pf)
+                    p.pcds = tmp.getComponent('playercards')
+                    self.node.addChild(tmp)
+                    tmp.setPosition(cc.p(-350, 100))
                 }
 
                 {
                     const element = self.places[opp_right]
                     var p = new player('wang', 'wang')
                     element.resetCurPlayer(p, false)
+                    
+                    var tmp = cc.instantiate(self.pf)
+                    p.pcds = tmp.getComponent('playercards')
+                    self.node.addChild(tmp)
+                    tmp.setPosition(cc.p(350, 100))
                 }
 
                 resolve("true")
@@ -150,6 +160,11 @@ export class DouDiZhu extends cc.Component {
                 var p = new player('alfred', 'yang')
                 element.resetCurPlayer(p, true)
 
+                let tmp = cc.instantiate(self.pmf)
+                p.pmcds = tmp.getComponent('playermecards')
+                self.node.addChild(tmp)
+                tmp.setPosition(cc.p(0, -150))
+
                 resolve("true")
             }, 2000)
         })
@@ -159,8 +174,6 @@ export class DouDiZhu extends cc.Component {
         // check if all the player is ready
         var b = true
         this.places.forEach(element => {
-            console.log("start check");
-            console.log(element.isReady());
             b = b && element.isReady()
         });
         return b
@@ -208,17 +221,76 @@ export class DouDiZhu extends cc.Component {
             }
         });
 
-        console.log("total create card :");
-        console.log(cards.length);
-
-        this.putCardInCBT(cards)
+        this.cs = cards
+        this.putCardInCBT()
     }
 
-    putCardInCBT(cs : cc.Node[]) {
-        for (let index = 0 ; index < cs.length; index++) {
-            const card = cs[index];
-            this.ctb.addChild(card)
+    /**
+     * 建立牌堆
+     * @param cs : cards 
+     */
+    putCardInCBT() {
+        for (let index = 0 ; index < this.cs.length; index++) {
+            const card = this.cs[index];
+            this.node.addChild(card)
             card.setPosition(cc.p(index, index))
         }
+
+        this.sendCard2Player(0)
+    }
+
+    /**
+     * 发牌的动画
+     * TODO: 洗牌
+     */
+    sendCard2Player(index : number) {
+        if (this.cs.length > 0) {
+            const ele = this.cs.pop()
+            let tmp = null
+            switch (index%3) {
+                case 0: {
+                    tmp = cc.moveTo(0.5, cc.p(0, -100))
+                    break;
+                }
+                case 1: {
+                    tmp = cc.moveTo(0.5, cc.p(-100, 100))
+                    break;
+                }
+                case 2: {
+                    tmp = cc.moveTo(0.5, cc.p(100, 100))
+                    break;
+                }
+                default:
+                    break;
+            }
+            let act = cc.sequence(tmp, cc.callFunc(this.nextCard2Player, this, index))
+            ele.runAction(act)
+        } else {
+            this.sendCardEnded()
+        }
+    }
+
+    nextCard2Player(ele: cc.Node, index : number) {
+        /**
+         * 1. 将牌给用户进行管理，并在用户的区域内显示牌
+         */
+        ele.removeFromParent()
+        // ele.destroy()
+
+        let player = this.places[index%3].curPlayer
+        console.log(player.playerName)
+
+        let card = ele.getComponent('card')
+        if (player.pcds != null) {
+            player.pcds.gainCard(card)
+        } else if (player.pmcds != null) {
+            player.pmcds.gainCard(card)
+        }
+
+        this.sendCard2Player(++index)
+    }
+
+    sendCardEnded() {
+        console.log('可以开始斗地主了');
     }
 }

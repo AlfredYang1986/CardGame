@@ -8,22 +8,14 @@
 //  - [Chinese] http://www.cocos.com/docs/creator/scripting/life-cycle-callbacks.html
 //  - [English] http://www.cocos2d-x.org/docs/editors_and_tools/creator-chapters/scripting/life-cycle-callbacks/index.html
 
-// const {ccclass, property} = cc._decorator;
+const {ccclass, property} = cc._decorator;
 
-import {Role} from '../Defines/Roles'
-import {playercards} from '../Players/playercards'
-import {playermecards} from '../Players/playermecards'
+import {card} from '../Card/card'
 
-// @ccclass
-export class player { // extends cc.Component {
+@ccclass
+export class playercards extends cc.Component {
 
-    public playerName : string = null
-    public playerPhoto : string = null
-    public playerRole : Role = Role.normal
-
-    public pcds : playercards = null
-    public pmcds : playermecards = null
-
+    public cards : card[] = []
     // LIFE-CYCLE CALLBACKS:
 
     // onLoad () {},
@@ -34,8 +26,18 @@ export class player { // extends cc.Component {
 
     // update (dt) {},
 
-    constructor(name : string, photo : string) {
-        this.playerName = name
-        this.playerPhoto = photo
+    gainCard(cd : card) {
+        this.cards.push(cd)
+
+        let tmp = cd.node
+
+        let cd_node = this.node.getChildByName('cardTB')
+        cd_node.addChild(tmp)
+        tmp.setPosition(cc.p(0, 0))
+
+        let count = this.cards.length
+        let label_node = this.node.getChildByName('cardNum')
+        let label = label_node.getComponent(cc.Label)
+        label.string = "* " + count
     }
 }

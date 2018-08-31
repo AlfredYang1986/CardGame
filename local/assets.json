@@ -5,7 +5,7 @@
       "id": "mount-assets"
     },
     {
-      "folded": false,
+      "folded": true,
       "id": "29f52784-2fca-467b-92e7-8fd9ef8c57b7"
     },
     {
@@ -13,8 +13,12 @@
       "id": "4734c20c-0db8-4eb2-92ea-e692f4d70934"
     },
     {
-      "folded": false,
+      "folded": true,
       "id": "7b81d4e8-ec84-4716-968d-500ac1d78a54"
+    },
+    {
+      "folded": true,
+      "id": "ba8c8eed-29a1-4149-b63f-4d279efa4c49"
     },
     {
       "folded": true,
@@ -25,24 +29,68 @@
       "id": "ac0c1c65-0aa4-4d2a-a55c-93d738f3fe2d"
     },
     {
+      "folded": false,
+      "id": "bc697c3d-d8f2-402a-ba6b-0e726e5c2eb6"
+    },
+    {
       "folded": true,
       "id": "8171b689-ff62-4261-9abd-982f3d81b1a3"
     },
     {
-      "folded": false,
-      "id": "e813d7e7-0ad5-4d8b-81fe-5c7505f91c6a"
-    },
-    {
-      "folded": false,
-      "id": "02ca2243-505f-4382-9390-c921a947acaf"
-    },
-    {
-      "folded": false,
+      "folded": true,
       "id": "b90f725a-8910-4680-abd3-07abc77a50cc"
     },
     {
       "folded": true,
+      "id": "02ca2243-505f-4382-9390-c921a947acaf"
+    },
+    {
+      "folded": true,
+      "id": "e813d7e7-0ad5-4d8b-81fe-5c7505f91c6a"
+    },
+    {
+      "folded": true,
+      "id": "96d8f2eb-ea3a-4205-b791-639fb3f90fa9"
+    },
+    {
+      "folded": true,
+      "id": "f635632e-e742-4577-aebf-0bfa94b6d509"
+    },
+    {
+      "folded": true,
+      "id": "255b54a3-9973-4898-9f35-44a564278c38"
+    },
+    {
+      "folded": true,
+      "id": "c871fae0-5a5e-4689-906c-5fd9da7a57e4"
+    },
+    {
+      "folded": true,
+      "id": "9fbbee99-bce0-414c-a903-8ba5d87fdb40"
+    },
+    {
+      "folded": true,
       "id": "6aa0aa6a-ebee-4155-a088-a687a6aadec4"
+    },
+    {
+      "folded": true,
+      "id": "ed26534d-5314-4c3f-bb96-1c9a5f7f5a79"
+    },
+    {
+      "folded": true,
+      "id": "8c82c136-0a10-43d8-b146-31c9c967d493"
+    },
+    {
+      "folded": true,
+      "id": "78c053d9-4a24-4993-841f-da8e96d1b8c8"
+    },
+    {
+      "folded": true,
+      "id": "2bd39cda-74e4-4ffa-b56c-5760e9a84e47"
+    },
+    {
+      "folded": true,
+      "id": "aed54fa6-4f74-4f49-814d-ee9b68bb7f8d"
     },
     {
       "folded": true,
